@@ -1,30 +1,14 @@
 {
   "user_id": "U-04642",
-  "current_goal": "G07",
+  "current_goal": {
+    "id": "G10",
+    "name": "meaningful_engagement_7d",
+    "deadline": "2026-10-08T15:15:24.226000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-02207",
   "last_decision_at": "2026-10-01T15:15:24.226Z",
   "decision_history": [
-    {
-      "decision_id": "D-01948",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:29:54.445Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02115",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:04:26.056Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02236",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:15:24.226Z",
-      "status": "no_action"
-    },
     {
       "decision_id": "D-01377",
       "goal": null,
@@ -48,31 +32,51 @@
     },
     {
       "decision_id": "D-01918",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T14:29:50.061000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T14:29:50.061Z",
       "status": "ok"
     },
     {
       "decision_id": "D-01919",
-      "goal": "G07",
-      "action_type": "no_action",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T14:29:54.445000Z",
+        "window_hours": 72
+      },
+      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T14:29:54.445Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-02086",
-      "goal": "G07",
+      "goal": {
+        "id": "G10",
+        "name": "meaningful_engagement_7d",
+        "deadline": "2026-10-08T15:04:26.056000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T15:04:26.056Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-02207",
-      "goal": "G07",
+      "goal": {
+        "id": "G10",
+        "name": "meaningful_engagement_7d",
+        "deadline": "2026-10-08T15:15:24.226000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T15:15:24.226Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }

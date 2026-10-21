@@ -1,75 +1,22 @@
 {
   "user_id": "U-00372",
-  "current_goal": "G05",
+  "current_goal": {
+    "id": "G10",
+    "name": "meaningful_engagement_7d",
+    "deadline": "2026-10-08T13:52:51.716000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-01775",
   "last_decision_at": "2026-10-01T13:52:51.716Z",
   "decision_history": [
     {
       "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01804",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:52:51.716Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01775",
-      "goal": "G05",
+      "goal": {
+        "id": "G10",
+        "name": "meaningful_engagement_7d",
+        "deadline": "2026-10-08T13:52:51.716000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T13:52:51.716Z",
       "status": "no_action"

@@ -1,78 +1,49 @@
 {
   "user_id": "U-01803",
-  "current_goal": "G02",
-  "last_decision_id": "D-01150",
+  "current_goal": {
+    "id": "G12",
+    "name": "return_after_absence_7d",
+    "deadline": "2026-10-08T08:37:20.889000Z",
+    "window_hours": 168
+  },
+  "last_decision_id": "D-01076",
   "last_decision_at": "2026-10-01T08:37:20.889Z",
   "decision_history": [
     {
-      "decision_id": "D-01076",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:37:20.889Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00898",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T07:07:53.331Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00900",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T07:07:56.908Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01105",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:37:20.889Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-00869",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T07:07:53.331000Z",
+        "window_hours": 168
+      },
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T07:07:53.331Z",
-      "status": "no_action"
+      "status": "ok"
     },
     {
       "decision_id": "D-00871",
-      "goal": null,
+      "goal": {
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T07:07:56.908000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T07:07:56.908Z",
-      "status": "no_action"
+      "status": "downgraded"
     },
     {
       "decision_id": "D-01076",
-      "goal": null,
+      "goal": {
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T08:37:20.889000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T08:37:20.889Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01041",
-      "goal": "G02",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T07:07:53.331Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-01043",
-      "goal": "G02",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T07:07:56.908Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-01150",
-      "goal": "G02",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T08:37:20.889Z",
-      "status": "ok"
+      "status": "downgraded"
     }
   ]
 }

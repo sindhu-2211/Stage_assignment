@@ -1,22 +1,15 @@
 {
   "user_id": "U-00284",
-  "current_goal": "G09",
+  "current_goal": null,
   "last_decision_id": "D-02520",
   "last_decision_at": "2026-10-01T16:43:27.957Z",
   "decision_history": [
     {
-      "decision_id": "D-02520",
+      "decision_id": "D-00223",
       "goal": null,
       "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:43:27.957Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00223",
-      "goal": "G09",
-      "action_type": "push",
       "deliver_at": "2026-10-01T03:12:27.715Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01050",
@@ -31,20 +24,6 @@
       "action_type": "no_action",
       "deliver_at": "2026-10-01T08:47:26.395Z",
       "status": "no_action"
-    },
-    {
-      "decision_id": "D-01136",
-      "goal": "G09",
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:24:27.438Z",
-      "status": "downgraded"
-    },
-    {
-      "decision_id": "D-01166",
-      "goal": "G09",
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:47:26.395Z",
-      "status": "downgraded"
     },
     {
       "decision_id": "D-01653",
@@ -62,17 +41,17 @@
     },
     {
       "decision_id": "D-02306",
-      "goal": "G09",
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T15:41:09.217Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-02520",
-      "goal": "G09",
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T16:43:27.957Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }

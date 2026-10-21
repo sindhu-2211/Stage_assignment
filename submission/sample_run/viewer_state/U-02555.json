@@ -1,78 +1,25 @@
 {
   "user_id": "U-02555",
-  "current_goal": "G05",
-  "last_decision_id": "D-00977",
+  "current_goal": {
+    "id": "G10",
+    "name": "meaningful_engagement_7d",
+    "deadline": "2026-10-08T05:56:28.632000Z",
+    "window_hours": 168
+  },
+  "last_decision_id": "D-00736",
   "last_decision_at": "2026-10-01T05:56:28.632Z",
   "decision_history": [
     {
       "decision_id": "D-00736",
-      "goal": null,
+      "goal": {
+        "id": "G10",
+        "name": "meaningful_engagement_7d",
+        "deadline": "2026-10-08T05:56:28.632000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T05:56:28.632Z",
       "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": "G05",
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": "G05",
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00765",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00736",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00977",
-      "goal": "G05",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T05:56:28.632Z",
-      "status": "ok"
     }
   ]
 }

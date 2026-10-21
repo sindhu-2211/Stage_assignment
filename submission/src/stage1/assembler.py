@@ -76,7 +76,9 @@ def assemble(
 
     # Step 5: G07 resolution — map title_ids to content_slugs, check episode counts
     play_started_by_title_id: dict = derived.get("play_started_by_title_id", {})
-    if derived.get("_g07_pending") and play_started_by_title_id:
+    # G07 is not relevant for lapsed-subscription users — G06 is the right goal for them.
+    g07_sub_ok = subscription_status not in ("lapsed",)
+    if derived.get("_g07_pending") and play_started_by_title_id and g07_sub_ok:
         unfinished = _resolve_unfinished_series(
             play_started_by_title_id=play_started_by_title_id,
             events=events,
@@ -94,7 +96,7 @@ def assemble(
                     measurable=True,
                     evidence=[
                         f"unfinished_series={unfinished}",
-                        "last play >= 3 days ago (verified)",
+                        "last play 3-21 days ago (verified)",
                     ],
                 ))
 
@@ -126,8 +128,8 @@ def assemble(
             continue
         if action.get("type") not in ("push", "whatsapp"):
             continue
-        send_at = action.get("send_at") or action.get("published_at", "")
-        if send_at and str(to_ist_date(send_at)) == deliver_ist_date:
+        pub_at = action.get("published_at", "")
+        if pub_at and str(to_ist_date(pub_at)) == deliver_ist_date:
             messages_today += 1
 
     # Step 9: platform + signup_at from profile/events
@@ -194,6 +196,7 @@ def _resolve_unfinished_series(
     - last play_started for that slug was >= 3 days ago
     """
     cutoff_3d = _days_before(deliver_at, 3)
+    cutoff_21d = _days_before(deliver_at, 21)
 
     # Collect completed episode_ids per content_slug from event stream
     completed_by_slug: dict[str, set] = {}
@@ -233,8 +236,10 @@ def _resolve_unfinished_series(
         if completed >= total_episodes:
             continue  # fully watched
 
-        # Last play must be >= 3 days ago
-        if last_play_ra > cutoff_3d:
+        # Last play must be 3-21 days ago:
+        # <3d: still actively watching, no nudge needed
+        # >21d: fully lapsed, G06 is more appropriate than G07
+        if last_play_ra > cutoff_3d or last_play_ra < cutoff_21d:
             continue
 
         unfinished.append(slug)

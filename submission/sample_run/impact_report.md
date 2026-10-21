@@ -4,16 +4,15 @@
 
 | Goal | Decisions | Successes | Success rate |
 |---|---|---|---|
-| G01 | 94 | 22 | 23.4% |
-| G02 | 184 | 27 | 14.7% |
+| G01 | 103 | 22 | 21.4% |
+| G02 | 52 | 10 | 19.2% |
 | G03 | 1 | 1 | 100.0% |
-| G04 | 4 | 0 | 0.0% |
-| G05 | 59 | 3 | 5.1% |
-| G06 | 111 | 8 | 7.2% |
-| G07 | 597 | 16 | 2.7% |
-| G08 | 47 | 42 | 89.4% |
-| G09 | 113 | 29 | 25.7% |
-| G12 | 1 | 0 | 0.0% |
+| G05 | 140 | 3 | 2.1% |
+| G06 | 46 | 0 | 0.0% |
+| G07 | 547 | 10 | 1.8% |
+| G08 | 46 | 42 | 91.3% |
+| G09 | 33 | 3 | 9.1% |
+| G12 | 50 | 18 | 36.0% |
 
 ## Holdout Arm — Organic Conversion Baseline
 
@@ -27,11 +26,23 @@ Within 168h window, organic events observed:
 | Any play_started | 854 | 62.2% |
 | No conversion | 483 | 35.2% |
 
-> Note: holdout users are not assigned goals by the agent (by design), so per-goal
-> comparison is not possible. Agent success rates above are goal-specific and represent
-> users who were eligible, received a targeted intervention, and hit the success event.
-> The holdout table gives the organic baseline: what fraction of triggered-but-unserved
-> users converted within the same 168h window without any agent message.
+## Per-Goal Lift (agent vs holdout organic)
+
+Holdout organic rate = fraction of holdout-arm triggered users who organically hit
+each goal's success event within the goal's window, without any agent intervention.
+Lift = agent success rate − holdout organic rate.
+
+| Goal | Agent decisions | Agent success% | Holdout n | Holdout organic% | Lift |
+|---|---|---|---|---|---|
+| G01 | 103 | 21.4% | 1372 | 37.8% | -16.4% |
+| G02 | 52 | 19.2% | 1372 | 28.6% | -9.4% |
+| G03 | 1 | 100.0% | 1372 | 40.6% | +59.4% |
+| G05 | 140 | 2.1% | 1372 | 2.6% | -0.5% |
+| G06 | 46 | 0.0% | 1372 | 2.9% | -2.9% |
+| G07 | 547 | 1.8% | 1372 | 50.6% | -48.8% |
+| G08 | 46 | 91.3% | 1372 | 63.9% | +27.4% |
+| G09 | 33 | 9.1% | 1372 | 37.8% | -28.7% |
+| G12 | 50 | 36.0% | 1372 | 63.9% | -27.9% |
 
 ## Why naive comparison misleads
 

@@ -1,76 +1,23 @@
 {
   "user_id": "U-04586",
-  "current_goal": "G05",
-  "last_decision_id": "D-00948",
+  "current_goal": {
+    "id": "G12",
+    "name": "return_after_absence_7d",
+    "deadline": "2026-10-08T05:31:57.475000Z",
+    "window_hours": 168
+  },
+  "last_decision_id": "D-00681",
   "last_decision_at": "2026-10-01T05:31:57.475Z",
   "decision_history": [
     {
       "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": "G05",
+      "goal": {
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T05:31:57.475000Z",
+        "window_hours": 168
+      },
       "action_type": "whatsapp",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": "G12",
-      "action_type": "whatsapp",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00710",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00681",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:57.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00948",
-      "goal": "G05",
-      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T05:31:57.475Z",
       "status": "ok"
     }

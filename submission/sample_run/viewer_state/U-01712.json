@@ -1,75 +1,70 @@
 {
   "user_id": "U-01712",
-  "current_goal": "G09",
-  "last_decision_id": "D-01242",
+  "current_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "deadline": "2026-10-15T09:52:15.983000Z",
+    "window_hours": 336
+  },
+  "last_decision_id": "D-01240",
   "last_decision_at": "2026-10-01T09:52:15.983Z",
   "decision_history": [
     {
-      "decision_id": "D-01120",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:43:20.128Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01269",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T09:52:15.983Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-00248",
-      "goal": "G09",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T03:30:08.890000Z",
+        "window_hours": 336
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T03:30:08.890Z",
       "status": "ok"
     },
     {
       "decision_id": "D-00250",
-      "goal": "G09",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T03:31:58.923000Z",
+        "window_hours": 336
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T03:31:58.923Z",
       "status": "ok"
     },
     {
       "decision_id": "D-00614",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T05:05:08.431000Z",
+        "window_hours": 336
+      },
+      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T05:05:08.431Z",
-      "status": "no_action"
+      "status": "ok"
     },
     {
       "decision_id": "D-01091",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T08:43:20.128000Z",
+        "window_hours": 336
+      },
+      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T08:43:20.128Z",
-      "status": "no_action"
+      "status": "ok"
     },
     {
       "decision_id": "D-01240",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T09:52:15.983Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00915",
-      "goal": "G09",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T05:05:08.431Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-01158",
-      "goal": "G09",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T08:43:20.128Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-01242",
-      "goal": "G09",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T09:52:15.983000Z",
+        "window_hours": 336
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T09:52:15.983Z",
       "status": "ok"

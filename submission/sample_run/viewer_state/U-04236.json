@@ -1,75 +1,34 @@
 {
   "user_id": "U-04236",
-  "current_goal": "G01",
+  "current_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "deadline": "2026-10-02T14:33:15.648000Z",
+    "window_hours": 24
+  },
   "last_decision_id": "D-01929",
   "last_decision_at": "2026-10-01T14:33:15.648Z",
   "decision_history": [
     {
       "decision_id": "D-01928",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:11.779Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01929",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:15.648Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01928",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:11.779Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01929",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:15.648Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01928",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:11.779Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01929",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:15.648Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01957",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:11.779Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01958",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:15.648Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01928",
-      "goal": "G01",
+      "goal": {
+        "id": "G01",
+        "name": "first_play_24h",
+        "deadline": "2026-10-02T14:33:11.779000Z",
+        "window_hours": 24
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T14:33:11.779Z",
       "status": "ok"
     },
     {
       "decision_id": "D-01929",
-      "goal": "G01",
+      "goal": {
+        "id": "G01",
+        "name": "first_play_24h",
+        "deadline": "2026-10-02T14:33:15.648000Z",
+        "window_hours": 24
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T14:33:15.648Z",
       "status": "ok"

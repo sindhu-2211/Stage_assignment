@@ -1,78 +1,37 @@
 {
   "user_id": "U-00495",
-  "current_goal": "G06",
+  "current_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "deadline": "2026-10-15T14:59:26.199000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-02012",
   "last_decision_at": "2026-10-01T14:59:26.199Z",
   "decision_history": [
     {
       "decision_id": "D-00564",
-      "goal": "G06",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T04:47:42.337Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00564",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:47:42.337Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02012",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:59:26.199Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00564",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:47:42.337Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02012",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:59:26.199Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00593",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:47:42.337Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02041",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:59:26.199Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00564",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:47:42.337Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00887",
-      "goal": "G06",
+      "goal": {
+        "id": "G06",
+        "name": "reactivate_lapsed_14d",
+        "deadline": "2026-10-15T04:47:42.337000Z",
+        "window_hours": 336
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T04:47:42.337Z",
       "status": "ok"
     },
     {
       "decision_id": "D-02012",
-      "goal": "G06",
-      "action_type": "no_action",
+      "goal": {
+        "id": "G06",
+        "name": "reactivate_lapsed_14d",
+        "deadline": "2026-10-15T14:59:26.199000Z",
+        "window_hours": 336
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T14:59:26.199Z",
-      "status": "downgraded"
+      "status": "ok"
     }
   ]
 }

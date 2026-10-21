@@ -127,11 +127,16 @@ def _build_content(draft: DecisionDraft) -> list[str]:
 
 
 def _extract_confidence_reason(draft: DecisionDraft) -> str:
-    if not draft.reasoning:
+    text = (draft.reasoning or "").strip()
+    if not text:
         return ""
-    # First sentence of reasoning = confidence justification
-    reason = draft.reasoning.split(".")[0].strip()
-    return reason[:120] if reason else ""
+    # Try first sentence (period-delimited)
+    first = text.split(".")[0].strip()
+    if first and len(first) <= 120:
+        return first
+    # Fall back to word-boundary truncation to avoid mid-word cut
+    truncated = text[:117].rsplit(" ", 1)[0]
+    return (truncated + "...") if truncated else ""
 
 
 def _build_evidence(brief: ViewerBrief, draft: DecisionDraft | None = None) -> list[str]:
@@ -179,13 +184,15 @@ def _update_viewer_state(brief: ViewerBrief, decision: dict, state_dir: Path) ->
     state["last_decision_at"] = decision["deliver_at"]
 
     history = state.get("decision_history", [])
-    history.append({
-        "decision_id": decision["decision_id"],
-        "goal": decision["goal"],
-        "action_type": decision["action"]["type"],
-        "deliver_at": decision["deliver_at"],
-        "status": decision["status"],
-    })
+    existing_ids = {e.get("decision_id") for e in history}
+    if decision["decision_id"] not in existing_ids:
+        history.append({
+            "decision_id": decision["decision_id"],
+            "goal": decision["goal"],
+            "action_type": decision["action"]["type"],
+            "deliver_at": decision["deliver_at"],
+            "status": decision["status"],
+        })
     state["decision_history"] = history[-10:]  # keep last 10
 
     state_path.write_text(json.dumps(state, indent=2, ensure_ascii=False))

@@ -1,9 +1,9 @@
 {
   "total_decisions": 2769,
   "latency_failures": 0,
-  "p50_ms": 0.2,
-  "p95_ms": 821.9,
-  "p99_ms": 959.6,
-  "max_ms": 4616.1,
+  "p50_ms": 0.3,
+  "p95_ms": 2.8,
+  "p99_ms": 3.7,
+  "max_ms": 7.2,
   "min_ms": 0.0
 }

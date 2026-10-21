@@ -5,49 +5,49 @@
 - Total triggers: 2769
 - Agent-arm decisions: 1397
 - Holdout-arm (no action): 1372
-- Actions published: 821
+- Actions published: 984
 
 ## Goals selected (agent arm)
 
 | Goal | Count |
 |---|---|
-| G07 | 597 |
-| G02 | 184 |
-| G09 | 113 |
-| G06 | 111 |
-| G01 | 94 |
-| G05 | 59 |
-| G08 | 47 |
-| G04 | 4 |
-| G10 | 1 |
+| G07 | 547 |
+| G05 | 140 |
+| G01 | 103 |
+| G02 | 52 |
+| G12 | 50 |
+| G06 | 46 |
+| G08 | 46 |
+| G10 | 41 |
+| G09 | 33 |
 | G03 | 1 |
-| G12 | 1 |
 
 ## Interventions published
 
 | Type | Count |
 |---|---|
-| push | 588 |
-| no_action | 576 |
-| in_app_message | 231 |
-| home_page | 2 |
+| push | 511 |
+| no_action | 413 |
+| home_page | 233 |
+| in_app_message | 214 |
+| whatsapp | 26 |
 
 ## Outcome distribution
 
 | Outcome | Count |
 |---|---|
-| failed | 928 |
-| no_goal | 185 |
-| succeeded | 148 |
-| inconclusive | 135 |
-| unverifiable | 1 |
+| failed | 792 |
+| no_goal | 338 |
+| inconclusive | 117 |
+| succeeded | 109 |
+| unverifiable | 41 |
 
 ## Impact (agent vs holdout)
 
 See `impact_report.md` for full breakdown.
-Goals measured: 10
-Total agent decisions with goal: 1211
-Total agent successes: 148
+Goals measured: 9
+Total agent decisions with goal: 1018
+Total agent successes: 109
 
 **Holdout organic baseline** (n=1372 triggers, no intervention):
 - Organic paid purchase rate: 2.6%

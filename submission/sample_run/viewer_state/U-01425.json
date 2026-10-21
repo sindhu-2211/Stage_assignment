@@ -1,68 +1,22 @@
 {
   "user_id": "U-01425",
-  "current_goal": "G09",
+  "current_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "deadline": "2026-10-15T16:15:48.090000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-02424",
   "last_decision_at": "2026-10-01T16:15:48.090Z",
   "decision_history": [
     {
       "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:15:48.090Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02424",
-      "goal": "G09",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T16:15:48.090000Z",
+        "window_hours": 336
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T16:15:48.090Z",
       "status": "ok"

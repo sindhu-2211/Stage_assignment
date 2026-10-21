@@ -1,75 +1,22 @@
 {
   "user_id": "U-01619",
-  "current_goal": "G02",
+  "current_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "deadline": "2026-10-08T14:02:19.209000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-01812",
   "last_decision_at": "2026-10-01T14:02:19.209Z",
   "decision_history": [
     {
       "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01841",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:02:19.209Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01812",
-      "goal": "G02",
+      "goal": {
+        "id": "G05",
+        "name": "first_paid_7d",
+        "deadline": "2026-10-08T14:02:19.209000Z",
+        "window_hours": 168
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T14:02:19.209Z",
       "status": "ok"

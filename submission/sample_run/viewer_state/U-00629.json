@@ -6,56 +6,12 @@
   "decision_history": [
     {
       "decision_id": "D-00679",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:12.016Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01472",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T11:49:55.852Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01577",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:34:13.773Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00708",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:12.016Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01501",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T11:49:55.852Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01606",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:34:13.773Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00679",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T05:31:12.016Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00947",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T05:31:12.016000Z",
+        "window_hours": 72
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T05:31:12.016Z",
       "status": "ok"

@@ -1,69 +1,23 @@
 {
   "user_id": "U-02621",
-  "current_goal": "G09",
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:54:55.778000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-02563",
   "last_decision_at": "2026-10-01T16:54:55.778Z",
   "decision_history": [
     {
       "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:54:55.778Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02563",
-      "goal": "G09",
-      "action_type": "in_app_message",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T16:54:55.778000Z",
+        "window_hours": 72
+      },
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T16:54:55.778Z",
       "status": "ok"
     }

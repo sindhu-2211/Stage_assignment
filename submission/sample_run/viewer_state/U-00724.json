@@ -1,78 +1,61 @@
 {
   "user_id": "U-00724",
-  "current_goal": "G04",
+  "current_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "deadline": "2026-10-04T16:24:52.520000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-02450",
   "last_decision_at": "2026-10-01T16:24:52.520Z",
   "decision_history": [
     {
-      "decision_id": "D-02253",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:25:42.924Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02263",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:28:20.443Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02281",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:25:37.353Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02282",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:25:42.924Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02292",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:28:20.443Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02450",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:24:52.520Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-02252",
-      "goal": "G04",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T15:25:37.353000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T15:25:37.353Z",
       "status": "ok"
     },
     {
       "decision_id": "D-02253",
-      "goal": "G04",
-      "action_type": "no_action",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T15:25:42.924000Z",
+        "window_hours": 72
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T15:25:42.924Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-02263",
-      "goal": "G04",
-      "action_type": "no_action",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T15:28:20.443000Z",
+        "window_hours": 72
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T15:28:20.443Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-02450",
-      "goal": "G04",
-      "action_type": "no_action",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T16:24:52.520000Z",
+        "window_hours": 72
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T16:24:52.520Z",
-      "status": "downgraded"
+      "status": "ok"
     }
   ]
 }

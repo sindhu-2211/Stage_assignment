@@ -23,6 +23,7 @@ def judge_outcomes(
     decisions_path: Path,
     outcome_events_path: Path,
     goals: dict,
+    catalogue_by_id: dict | None = None,
 ) -> list[dict]:
     """
     Returns list of outcome records:
@@ -165,13 +166,23 @@ def judge_outcomes(
             and (e.get("received_at") or "") <= window_end.isoformat().replace("+00:00", "Z")
         ]
 
+        rec_title_id = _extract_title_id(dec.get("content"))
+        # For G07: match on content_slug (series) not exact title_id (episode)
+        # so watching ep 2 when agent recommended ep 1 still counts as success
+        rec_content_slug = rec_title_id
+        if goal_id == "G07" and rec_title_id and catalogue_by_id:
+            rec_content_slug = (catalogue_by_id.get(rec_title_id) or {}).get(
+                "content_slug", rec_title_id
+            )
+
         outcome, evidence = _check_success(
             goal_id=goal_id,
             success_event=success_event,
             success_condition=success_cfg.get("condition", ""),
             after_decision=after_decision,
             start_ist=to_ist_date(start_utc),
-            content_slug=_extract_title_id(dec.get("content")),
+            content_slug=rec_content_slug,
+            catalogue_by_id=catalogue_by_id if goal_id == "G07" else None,
         )
 
         results.append({
@@ -193,6 +204,7 @@ def _check_success(
     after_decision: list[dict],
     start_ist: date,
     content_slug,
+    catalogue_by_id: dict | None = None,
 ) -> tuple[str, list[str]]:
     matching = [e for e in after_decision if e.get("event") == success_event]
 
@@ -225,12 +237,23 @@ def _check_success(
         return "failed", []
 
     if goal_id == "G07":
-        # play_started for same content_slug
+        # play_started for any episode in the same series (content_slug)
+        # content_slug is the series slug if catalogue is available, otherwise title_id
         if not content_slug:
             return "inconclusive", []
         for e in matching:
             props = e.get("properties") or {}
-            if props.get("title_id") == content_slug:
+            viewed_tid = props.get("title_id", "")
+            if not viewed_tid:
+                continue
+            # If we have catalogue, resolve viewed title to its slug
+            if catalogue_by_id:
+                viewed_slug = (catalogue_by_id.get(viewed_tid) or {}).get(
+                    "content_slug", viewed_tid
+                )
+            else:
+                viewed_slug = viewed_tid
+            if viewed_slug == content_slug:
                 return "succeeded", [e.get("event_id", "")]
         return "failed", []
 
@@ -253,6 +276,107 @@ def _check_success(
 
     # Default: any matching event = success
     return "succeeded", [matching[0].get("event_id", "")]
+
+
+def compute_holdout_per_goal_organic(
+    decisions_path: Path,
+    outcome_events_path: Path,
+    goals: dict,
+) -> dict[str, dict]:
+    """
+    For each goal, compute the organic success rate among holdout users.
+
+    Returns {goal_id: {"eligible": int, "organic_succeeded": int}} where
+    "eligible" means the holdout user triggered on the replay day and the
+    goal's success event was checkable (i.e. success_event is not None).
+
+    We use all holdout triggers as the denominator — this is the correct
+    randomised-holdout baseline: same population, no agent intervention.
+    """
+    decisions = _load_jsonl(decisions_path)
+    outcome_events = _load_jsonl(outcome_events_path)
+
+    events_by_user: dict[str, list[dict]] = defaultdict(list)
+    for e in outcome_events:
+        uid = e.get("user_id", "")
+        if uid:
+            events_by_user[uid].append(e)
+
+    holdout_decisions = [d for d in decisions if d.get("holdout")]
+    if not holdout_decisions:
+        return {}
+
+    result: dict[str, dict] = {}
+    for gid, goal in goals.items():
+        success_cfg = goal.get("success", {})
+        success_event = success_cfg.get("event")
+        if not success_event:
+            continue
+        window_hours = success_cfg.get("window_hours", 168)
+
+        eligible = 0
+        organic_succeeded = 0
+
+        for dec in holdout_decisions:
+            start_utc = dec.get("deliver_at", "")
+            if not start_utc:
+                continue
+            eligible += 1
+            try:
+                start_dt = _parse_utc(start_utc)
+                window_end = start_dt + timedelta(hours=window_hours)
+                window_end_str = window_end.isoformat().replace("+00:00", "Z")
+            except (ValueError, AttributeError):
+                continue
+
+            user_events = events_by_user.get(dec["viewer_id"], [])
+            for e in user_events:
+                ra = e.get("received_at", "")
+                if ra <= start_utc or ra > window_end_str:
+                    continue
+                if e.get("event") != success_event:
+                    continue
+                # Goal-specific conditions
+                if gid in ("G04", "G05"):
+                    props = e.get("properties") or {}
+                    if str(props.get("is_trial", "true")).lower() != "false":
+                        continue
+                if gid == "G03":
+                    if to_ist_date(ra) <= to_ist_date(start_utc):
+                        continue
+                if gid == "G09":
+                    # need 3 distinct IST play days — handled below
+                    pass
+                organic_succeeded += 1
+                break
+
+        # G09: override — need 3 distinct IST play days
+        if gid == "G09" and success_event:
+            organic_succeeded = 0
+            for dec in holdout_decisions:
+                start_utc = dec.get("deliver_at", "")
+                if not start_utc:
+                    continue
+                try:
+                    start_dt = _parse_utc(start_utc)
+                    window_end = start_dt + timedelta(hours=window_hours)
+                    window_end_str = window_end.isoformat().replace("+00:00", "Z")
+                except (ValueError, AttributeError):
+                    continue
+                user_events = events_by_user.get(dec["viewer_id"], [])
+                play_days = set()
+                for e in user_events:
+                    ra = e.get("received_at", "")
+                    if ra <= start_utc or ra > window_end_str:
+                        continue
+                    if e.get("event") == success_event:
+                        play_days.add(str(to_ist_date(ra)))
+                if len(play_days) >= 3:
+                    organic_succeeded += 1
+
+        result[gid] = {"eligible": eligible, "organic_succeeded": organic_succeeded}
+
+    return result
 
 
 def _extract_title_id(content) -> str | None:

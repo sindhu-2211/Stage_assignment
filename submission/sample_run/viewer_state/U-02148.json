@@ -1,51 +1,9 @@
 {
   "user_id": "U-02148",
-  "current_goal": "G06",
+  "current_goal": null,
   "last_decision_id": "D-02621",
   "last_decision_at": "2026-10-01T17:14:00.802Z",
   "decision_history": [
-    {
-      "decision_id": "D-01754",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:08.112Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01757",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:30.309Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01376",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T10:47:38.709Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01783",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:08.112Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01786",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:30.309Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02621",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T17:14:00.802Z",
-      "status": "no_action"
-    },
     {
       "decision_id": "D-01347",
       "goal": null,
@@ -55,24 +13,24 @@
     },
     {
       "decision_id": "D-01754",
-      "goal": "G06",
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T13:46:08.112Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01757",
-      "goal": "G06",
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T13:46:30.309Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-02621",
-      "goal": "G06",
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T17:14:00.802Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }

@@ -11,6 +11,7 @@ def generate_impact_report(
     outcomes: list[dict],
     arms: dict,  # user_id -> arm
     out_path: Path,
+    holdout_by_goal: dict | None = None,
 ) -> dict:
     """
     Writes impact_report.md and returns summary dict.
@@ -83,12 +84,41 @@ def generate_impact_report(
         f"| Any play_started | {holdout_plays} | {holdout_plays/ho_n:.1%} |",
         f"| No conversion | {holdout_none} | {holdout_none/ho_n:.1%} |",
         "",
-        "> Note: holdout users are not assigned goals by the agent (by design), so per-goal",
-        "> comparison is not possible. Agent success rates above are goal-specific and represent",
-        "> users who were eligible, received a targeted intervention, and hit the success event.",
-        "> The holdout table gives the organic baseline: what fraction of triggered-but-unserved",
-        "> users converted within the same 168h window without any agent message.",
-        "",
+    ]
+
+    # Per-goal lift table
+    if holdout_by_goal:
+        lines += [
+            "## Per-Goal Lift (agent vs holdout organic)",
+            "",
+            "Holdout organic rate = fraction of holdout-arm triggered users who organically hit",
+            "each goal's success event within the goal's window, without any agent intervention.",
+            "Lift = agent success rate − holdout organic rate.",
+            "",
+            "| Goal | Agent decisions | Agent success% | Holdout n | Holdout organic% | Lift |",
+            "|---|---|---|---|---|---|",
+        ]
+        for r in rows:
+            gid = r["goal_id"]
+            ho = holdout_by_goal.get(gid, {})
+            ho_eligible = ho.get("eligible", 0)
+            ho_succeeded = ho.get("organic_succeeded", 0)
+            ho_rate = ho_succeeded / ho_eligible if ho_eligible > 0 else 0.0
+            lift = r["agent_success_rate"] - ho_rate
+            lift_str = f"+{lift:.1%}" if lift >= 0 else f"{lift:.1%}"
+            lines.append(
+                f"| {gid} | {r['agent_decisions']} | {r['agent_success_rate']:.1%} "
+                f"| {ho_eligible} | {ho_rate:.1%} | {lift_str} |"
+            )
+        lines.append("")
+    else:
+        lines += [
+            "> Holdout organic rates not computed. Re-run generate_reports.py with --pack to",
+            "> enable per-goal lift calculation.",
+            "",
+        ]
+
+    lines += [
         "## Why naive comparison misleads",
         "",
         "A naive comparison (agent-served users vs all users) overstates lift because:",

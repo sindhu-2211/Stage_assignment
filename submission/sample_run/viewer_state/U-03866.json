@@ -1,75 +1,22 @@
 {
   "user_id": "U-03866",
-  "current_goal": "G02",
+  "current_goal": {
+    "id": "G12",
+    "name": "return_after_absence_7d",
+    "deadline": "2026-10-08T13:46:27.401000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-01756",
   "last_decision_at": "2026-10-01T13:46:27.401Z",
   "decision_history": [
     {
       "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01785",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:46:27.401Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01756",
-      "goal": "G02",
+      "goal": {
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T13:46:27.401000Z",
+        "window_hours": 168
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T13:46:27.401Z",
       "status": "ok"

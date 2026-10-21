@@ -1,78 +1,37 @@
 {
   "user_id": "U-02656",
-  "current_goal": "G09",
-  "last_decision_id": "D-01157",
+  "current_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "deadline": "2026-10-15T08:42:17.454000Z",
+    "window_hours": 336
+  },
+  "last_decision_id": "D-01090",
   "last_decision_at": "2026-10-01T08:42:17.454Z",
   "decision_history": [
     {
       "decision_id": "D-01021",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:11:34.583Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01090",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:42:17.454Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01021",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:11:34.583Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01090",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:42:17.454Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01050",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:11:34.583Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01119",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:42:17.454Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01021",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:11:34.583Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01090",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:42:17.454Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01117",
-      "goal": "G02",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T08:11:34.583000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T08:11:34.583Z",
       "status": "ok"
     },
     {
-      "decision_id": "D-01157",
-      "goal": "G09",
-      "action_type": "no_action",
+      "decision_id": "D-01090",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T08:42:17.454000Z",
+        "window_hours": 336
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T08:42:17.454Z",
-      "status": "downgraded"
+      "status": "ok"
     }
   ]
 }

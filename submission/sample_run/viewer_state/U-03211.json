@@ -1,76 +1,23 @@
 {
   "user_id": "U-03211",
-  "current_goal": "G09",
+  "current_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "deadline": "2026-10-15T14:33:39.342000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-01930",
   "last_decision_at": "2026-10-01T14:33:39.342Z",
   "decision_history": [
     {
       "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01959",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:33:39.342Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01930",
-      "goal": "G09",
-      "action_type": "in_app_message",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T14:33:39.342000Z",
+        "window_hours": 336
+      },
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T14:33:39.342Z",
       "status": "ok"
     }

@@ -1,75 +1,22 @@
 {
   "user_id": "U-02033",
-  "current_goal": "G08",
+  "current_goal": {
+    "id": "G08",
+    "name": "try_new_release_7d",
+    "deadline": "2026-10-08T15:50:19.038000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-02339",
   "last_decision_at": "2026-10-01T15:50:19.038Z",
   "decision_history": [
     {
       "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02368",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:50:19.038Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02339",
-      "goal": "G08",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T15:50:19.038000Z",
+        "window_hours": 168
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T15:50:19.038Z",
       "status": "ok"
