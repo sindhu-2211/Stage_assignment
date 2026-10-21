@@ -5,64 +5,25 @@
   "last_decision_at": "2026-10-01T11:46:19.337Z",
   "decision_history": [
     {
-      "decision_id": "D-00795",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T06:27:50.377Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01460",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T11:46:19.337Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00368",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:33:53.254Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00824",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T06:27:50.377Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01489",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T11:46:19.337Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-00339",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:33:53.254Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00795",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T06:27:50.377Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00789",
-      "goal": "G08",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T04:33:53.254000Z",
+        "window_hours": 168
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T04:33:53.254Z",
       "status": "ok"
     },
     {
-      "decision_id": "D-01005",
-      "goal": "G08",
+      "decision_id": "D-00795",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T06:27:50.377000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T06:27:50.377Z",
       "status": "downgraded"

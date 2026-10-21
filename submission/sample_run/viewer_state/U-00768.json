@@ -17,62 +17,6 @@
       "action_type": "no_action",
       "deliver_at": "2026-10-01T12:33:16.302Z",
       "status": "no_action"
-    },
-    {
-      "decision_id": "D-01573",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:12.790Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01574",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:16.302Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01573",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:12.790Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01574",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:16.302Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01602",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:12.790Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01603",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:16.302Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01573",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:12.790Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01574",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:33:16.302Z",
-      "status": "no_action"
     }
   ]
 }

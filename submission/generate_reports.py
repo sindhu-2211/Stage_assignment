@@ -43,7 +43,7 @@ def main():
         print("  python3 simulator/simulate_outcomes.py --pack . --actions sample_run/actions.jsonl --out sample_run/sim")
         outcomes = []
     else:
-        outcomes = judge_outcomes(decisions_path, outcome_events_path, config.goals)
+        outcomes = judge_outcomes(decisions_path, outcome_events_path, config.goals, config.catalogue_by_id)
         print(f"  {len(outcomes)} outcome records")
         outcomes_path = out_dir / "outcomes.jsonl"
         with open(outcomes_path, "w", encoding="utf-8") as f:

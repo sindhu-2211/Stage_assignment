@@ -1,6 +1,11 @@
 {
   "user_id": "U-02290",
-  "current_goal": "G06",
+  "current_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "deadline": "2026-10-15T14:39:22.627000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-01948",
   "last_decision_at": "2026-10-01T14:39:22.627Z",
   "decision_history": [
@@ -13,63 +18,12 @@
     },
     {
       "decision_id": "D-01948",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:39:22.627Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01557",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:21:56.972Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01948",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:39:22.627Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01557",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:21:56.972Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01948",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:39:22.627Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01586",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:21:56.972Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01977",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:39:22.627Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01557",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:21:56.972Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01948",
-      "goal": "G06",
+      "goal": {
+        "id": "G06",
+        "name": "reactivate_lapsed_14d",
+        "deadline": "2026-10-15T14:39:22.627000Z",
+        "window_hours": 336
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T14:39:22.627Z",
       "status": "ok"

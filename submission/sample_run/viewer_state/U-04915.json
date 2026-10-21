@@ -1,61 +1,22 @@
 {
   "user_id": "U-04915",
-  "current_goal": "G02",
+  "current_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "deadline": "2026-10-04T17:24:17.780000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-02651",
   "last_decision_at": "2026-10-01T17:24:17.780Z",
   "decision_history": [
     {
-      "decision_id": "D-01597",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:47.132Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02651",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T17:24:17.780Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-01296",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T10:20:34.325Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01597",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:47.132Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01325",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T10:20:34.325Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01626",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:47.132Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02651",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T17:24:17.780Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01296",
-      "goal": "G02",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T10:20:34.325000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T10:20:34.325Z",
       "status": "ok"
@@ -69,7 +30,12 @@
     },
     {
       "decision_id": "D-02651",
-      "goal": "G02",
+      "goal": {
+        "id": "G02",
+        "name": "first_full_episode_3d",
+        "deadline": "2026-10-04T17:24:17.780000Z",
+        "window_hours": 72
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T17:24:17.780Z",
       "status": "downgraded"

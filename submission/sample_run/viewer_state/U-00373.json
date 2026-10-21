@@ -1,6 +1,11 @@
 {
   "user_id": "U-00373",
-  "current_goal": "G01",
+  "current_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "deadline": "2026-10-02T13:29:02.900000Z",
+    "window_hours": 24
+  },
   "last_decision_id": "D-01699",
   "last_decision_at": "2026-10-01T13:29:02.900Z",
   "decision_history": [
@@ -13,63 +18,12 @@
     },
     {
       "decision_id": "D-01699",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:29:02.900Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01698",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:28:58.654Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01699",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:29:02.900Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01698",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:28:58.654Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01699",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:29:02.900Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01727",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:28:58.654Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01728",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:29:02.900Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01698",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:28:58.654Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01699",
-      "goal": "G01",
+      "goal": {
+        "id": "G01",
+        "name": "first_play_24h",
+        "deadline": "2026-10-02T13:29:02.900000Z",
+        "window_hours": 24
+      },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T13:29:02.900Z",
       "status": "ok"

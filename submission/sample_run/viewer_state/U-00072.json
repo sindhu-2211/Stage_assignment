@@ -1,75 +1,22 @@
 {
   "user_id": "U-00072",
-  "current_goal": "G07",
-  "last_decision_id": "D-00860",
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T04:46:48.330000Z",
+    "window_hours": 72
+  },
+  "last_decision_id": "D-00499",
   "last_decision_at": "2026-10-01T04:46:48.330Z",
   "decision_history": [
     {
       "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": "G07",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": "G07",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00528",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00499",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:48.330Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00860",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T04:46:48.330000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T04:46:48.330Z",
       "status": "ok"

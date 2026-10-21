@@ -1,17 +1,10 @@
 {
   "user_id": "U-00548",
-  "current_goal": "G07",
-  "last_decision_id": "D-00846",
+  "current_goal": null,
+  "last_decision_id": "D-00463",
   "last_decision_at": "2026-10-01T04:46:16.698Z",
   "decision_history": [
     {
-      "decision_id": "D-00463",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:16.698Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-00002",
       "goal": null,
       "action_type": "no_action",
@@ -24,55 +17,6 @@
       "action_type": "no_action",
       "deliver_at": "2026-10-01T04:46:16.698Z",
       "status": "no_action"
-    },
-    {
-      "decision_id": "D-00031",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-09-30T18:36:53.265Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00492",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:16.698Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00002",
-      "goal": "G07",
-      "action_type": "whatsapp",
-      "deliver_at": "2026-09-30T18:36:53.265Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00002",
-      "goal": "G07",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-09-30T18:36:53.265Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00002",
-      "goal": "G07",
-      "action_type": "no_action",
-      "deliver_at": "2026-09-30T18:36:53.265Z",
-      "status": "downgraded"
-    },
-    {
-      "decision_id": "D-00463",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T04:46:16.698Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00846",
-      "goal": "G07",
-      "action_type": "in_app_message",
-      "deliver_at": "2026-10-01T04:46:16.698Z",
-      "status": "ok"
     }
   ]
 }

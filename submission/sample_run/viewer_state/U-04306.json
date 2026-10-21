@@ -1,75 +1,34 @@
 {
   "user_id": "U-04306",
-  "current_goal": "G09",
+  "current_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "deadline": "2026-10-15T15:06:09.355000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-02118",
   "last_decision_at": "2026-10-01T15:06:09.355Z",
   "decision_history": [
     {
       "decision_id": "D-00260",
-      "goal": "G09",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T03:38:12.553Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00260",
-      "goal": "G09",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T03:38:12.553Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00260",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T03:38:12.553Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02118",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:06:09.355Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00260",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T03:38:12.553Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02118",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:06:09.355Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00289",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T03:38:12.553Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02147",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:06:09.355Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00260",
-      "goal": "G02",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T03:38:12.553000Z",
+        "window_hours": 336
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T03:38:12.553Z",
       "status": "ok"
     },
     {
       "decision_id": "D-02118",
-      "goal": "G09",
+      "goal": {
+        "id": "G09",
+        "name": "weekly_habit_14d",
+        "deadline": "2026-10-15T15:06:09.355000Z",
+        "window_hours": 336
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T15:06:09.355Z",
       "status": "downgraded"

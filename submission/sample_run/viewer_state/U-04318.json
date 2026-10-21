@@ -1,17 +1,15 @@
 {
   "user_id": "U-04318",
-  "current_goal": "G07",
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:16:29.406000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-02429",
   "last_decision_at": "2026-10-01T16:16:29.406Z",
   "decision_history": [
     {
-      "decision_id": "D-02429",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:16:29.406Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-01596",
       "goal": null,
       "action_type": "no_action",
@@ -20,56 +18,12 @@
     },
     {
       "decision_id": "D-02429",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:16:29.406Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01596",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:04.392Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02429",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:16:29.406Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01596",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:04.392Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01625",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:04.392Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02429",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T16:16:29.406Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01596",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:43:04.392Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02429",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T16:16:29.406000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T16:16:29.406Z",
       "status": "ok"

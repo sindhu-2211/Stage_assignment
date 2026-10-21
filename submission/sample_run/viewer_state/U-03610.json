@@ -1,75 +1,46 @@
 {
   "user_id": "U-03610",
-  "current_goal": "G08",
+  "current_goal": {
+    "id": "G08",
+    "name": "try_new_release_7d",
+    "deadline": "2026-10-08T14:22:16.475000Z",
+    "window_hours": 168
+  },
   "last_decision_id": "D-01884",
   "last_decision_at": "2026-10-01T14:22:16.475Z",
   "decision_history": [
     {
       "decision_id": "D-00083",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T00:30:46.943Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01708",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:30:38.154Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01884",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:22:16.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00112",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T00:30:46.943Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01737",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T13:30:38.154Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01913",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T14:22:16.475Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-00083",
-      "goal": "G08",
-      "action_type": "push",
-      "deliver_at": "2026-10-01T00:30:46.943Z",
-      "status": "ok"
-    },
-    {
-      "decision_id": "D-00083",
-      "goal": "G08",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T00:30:46.943000Z",
+        "window_hours": 168
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T00:30:46.943Z",
       "status": "ok"
     },
     {
       "decision_id": "D-01708",
-      "goal": "G08",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T13:30:38.154000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T13:30:38.154Z",
       "status": "downgraded"
     },
     {
       "decision_id": "D-01884",
-      "goal": "G08",
+      "goal": {
+        "id": "G08",
+        "name": "try_new_release_7d",
+        "deadline": "2026-10-08T14:22:16.475000Z",
+        "window_hours": 168
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T14:22:16.475Z",
       "status": "downgraded"

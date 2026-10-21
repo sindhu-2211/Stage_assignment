@@ -1,54 +1,22 @@
 {
   "user_id": "U-02520",
-  "current_goal": "G07",
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:00:55.544000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-02031",
   "last_decision_at": "2026-10-01T15:00:55.544Z",
   "decision_history": [
     {
-      "decision_id": "D-02031",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:00:55.544Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01072",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:20:48.888Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01452",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T11:29:39.116Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01659",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T12:59:52.027Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-02060",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T15:00:55.544Z",
-      "status": "no_action"
-    },
-    {
       "decision_id": "D-01043",
-      "goal": null,
-      "action_type": "no_action",
-      "deliver_at": "2026-10-01T08:20:48.888Z",
-      "status": "no_action"
-    },
-    {
-      "decision_id": "D-01131",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T08:20:48.888000Z",
+        "window_hours": 72
+      },
       "action_type": "push",
       "deliver_at": "2026-10-01T08:20:48.888Z",
       "status": "ok"
@@ -69,7 +37,12 @@
     },
     {
       "decision_id": "D-02031",
-      "goal": "G07",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T15:00:55.544000Z",
+        "window_hours": 72
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T15:00:55.544Z",
       "status": "downgraded"

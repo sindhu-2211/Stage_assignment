@@ -23,6 +23,7 @@ def judge_outcomes(
     decisions_path: Path,
     outcome_events_path: Path,
     goals: dict,
+    catalogue_by_id: dict | None = None,
 ) -> list[dict]:
     """
     Returns list of outcome records:
@@ -165,13 +166,23 @@ def judge_outcomes(
             and (e.get("received_at") or "") <= window_end.isoformat().replace("+00:00", "Z")
         ]
 
+        rec_title_id = _extract_title_id(dec.get("content"))
+        # For G07: match on content_slug (series) not exact title_id (episode)
+        # so watching ep 2 when agent recommended ep 1 still counts as success
+        rec_content_slug = rec_title_id
+        if goal_id == "G07" and rec_title_id and catalogue_by_id:
+            rec_content_slug = (catalogue_by_id.get(rec_title_id) or {}).get(
+                "content_slug", rec_title_id
+            )
+
         outcome, evidence = _check_success(
             goal_id=goal_id,
             success_event=success_event,
             success_condition=success_cfg.get("condition", ""),
             after_decision=after_decision,
             start_ist=to_ist_date(start_utc),
-            content_slug=_extract_title_id(dec.get("content")),
+            content_slug=rec_content_slug,
+            catalogue_by_id=catalogue_by_id if goal_id == "G07" else None,
         )
 
         results.append({
@@ -193,6 +204,7 @@ def _check_success(
     after_decision: list[dict],
     start_ist: date,
     content_slug,
+    catalogue_by_id: dict | None = None,
 ) -> tuple[str, list[str]]:
     matching = [e for e in after_decision if e.get("event") == success_event]
 
@@ -225,12 +237,23 @@ def _check_success(
         return "failed", []
 
     if goal_id == "G07":
-        # play_started for same content_slug
+        # play_started for any episode in the same series (content_slug)
+        # content_slug is the series slug if catalogue is available, otherwise title_id
         if not content_slug:
             return "inconclusive", []
         for e in matching:
             props = e.get("properties") or {}
-            if props.get("title_id") == content_slug:
+            viewed_tid = props.get("title_id", "")
+            if not viewed_tid:
+                continue
+            # If we have catalogue, resolve viewed title to its slug
+            if catalogue_by_id:
+                viewed_slug = (catalogue_by_id.get(viewed_tid) or {}).get(
+                    "content_slug", viewed_tid
+                )
+            else:
+                viewed_slug = viewed_tid
+            if viewed_slug == content_slug:
                 return "succeeded", [e.get("event_id", "")]
         return "failed", []
 

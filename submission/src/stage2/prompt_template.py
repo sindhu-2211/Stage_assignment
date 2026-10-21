@@ -53,6 +53,7 @@ Rules:
 - Prefer measurable goals over G10 (measurable=false)
 - no_action is a last resort: use it ONLY if eligible_goals is empty OR available_actions is empty
 - confidence: 0.0-1.0
+- Channel guidance: prefer whatsapp (when available) for re-engagement goals (G06 lapsed reactivation, G07 series resume) — WhatsApp gets higher open rates for re-engagement; prefer push for habit/conversion goals (G08, G09, G01, G05)
 """
 
 
