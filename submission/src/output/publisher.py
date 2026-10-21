@@ -88,6 +88,18 @@ def _build_home_page(action, brief, draft, config, live_state):
     action["rows"] = rows[:6]  # max 6 rows per interventions.json
 
 
+_PUSH_BODY_TEMPLATES: dict[str, str] = {
+    "G01": "Start {title_name} — your first episode is ready.",
+    "G02": "Watch the first episode of {title_name} now.",
+    "G05": "Upgrade to premium and watch {title_name} today.",
+    "G06": "You're back! Continue with {title_name}.",
+    "G07": "Pick up where you left off — {title_name} is waiting.",
+    "G08": "New release: {title_name} is now available.",
+    "G09": "Keep your streak going — watch {title_name}.",
+    "_default": "Watch {title_name} on OTT.",
+}
+
+
 def _build_push(action, brief, draft, config, published_at):
     title = None
     title_id = draft.title_id
@@ -102,11 +114,15 @@ def _build_push(action, brief, draft, config, published_at):
     title_name = title["title"] if title else "a great show"
     action["title_id"] = title_id
 
+    template = _PUSH_BODY_TEMPLATES.get(draft.goal_id or "_default",
+                                        _PUSH_BODY_TEMPLATES["_default"])
+    body = template.format(title_name=title_name)[:120]
+
     send_at = _next_safe_send_at(published_at)
     action["send_at"] = send_at
     action["text"] = {
         "title": title_name[:40],
-        "body": f"Watch {title_name} now on OTT."[:120],
+        "body": body,
     }
     action["deeplink"] = f"ott://title/{draft.title_id}" if draft.title_id else ""
 

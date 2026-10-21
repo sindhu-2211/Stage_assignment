@@ -127,11 +127,16 @@ def _build_content(draft: DecisionDraft) -> list[str]:
 
 
 def _extract_confidence_reason(draft: DecisionDraft) -> str:
-    if not draft.reasoning:
+    text = (draft.reasoning or "").strip()
+    if not text:
         return ""
-    # First sentence of reasoning = confidence justification
-    reason = draft.reasoning.split(".")[0].strip()
-    return reason[:120] if reason else ""
+    # Try first sentence (period-delimited)
+    first = text.split(".")[0].strip()
+    if first and len(first) <= 120:
+        return first
+    # Fall back to word-boundary truncation to avoid mid-word cut
+    truncated = text[:117].rsplit(" ", 1)[0]
+    return (truncated + "...") if truncated else ""
 
 
 def _build_evidence(brief: ViewerBrief, draft: DecisionDraft | None = None) -> list[str]:
