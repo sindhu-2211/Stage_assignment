@@ -1,8 +1,8 @@
 {
   "user_id": "U-00318",
   "current_goal": {
-    "id": "G05",
-    "name": "first_paid_7d",
+    "id": "G10",
+    "name": "meaningful_engagement_7d",
     "deadline": "2026-10-08T03:34:31.242000Z",
     "window_hours": 168
   },
@@ -12,8 +12,8 @@
     {
       "decision_id": "D-00255",
       "goal": {
-        "id": "G05",
-        "name": "first_paid_7d",
+        "id": "G10",
+        "name": "meaningful_engagement_7d",
         "deadline": "2026-10-08T03:34:31.242000Z",
         "window_hours": 168
       },

@@ -7,10 +7,10 @@
     {
       "decision_id": "D-00020",
       "goal": {
-        "id": "G09",
-        "name": "weekly_habit_14d",
-        "deadline": "2026-10-14T19:18:19.136000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-03T19:18:19.136000Z",
+        "window_hours": 72
       },
       "action_type": "push",
       "deliver_at": "2026-09-30T19:18:19.136Z",
@@ -19,14 +19,14 @@
     {
       "decision_id": "D-01301",
       "goal": {
-        "id": "G09",
-        "name": "weekly_habit_14d",
-        "deadline": "2026-10-15T10:25:30.017000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T10:25:30.017000Z",
+        "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T10:25:30.017Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-01323",

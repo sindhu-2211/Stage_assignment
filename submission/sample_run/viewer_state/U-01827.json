@@ -17,9 +17,9 @@
         "deadline": "2026-10-03T18:57:53.240000Z",
         "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "push",
       "deliver_at": "2026-09-30T18:57:53.240Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-00562",
@@ -29,9 +29,9 @@
         "deadline": "2026-10-04T04:47:42.013000Z",
         "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T04:47:42.013Z",
-      "status": "downgraded"
+      "status": "ok"
     }
   ]
 }

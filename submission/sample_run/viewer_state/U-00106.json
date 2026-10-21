@@ -7,10 +7,10 @@
     {
       "decision_id": "D-01280",
       "goal": {
-        "id": "G09",
-        "name": "weekly_habit_14d",
-        "deadline": "2026-10-15T10:11:49.017000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T10:11:49.017000Z",
+        "window_hours": 72
       },
       "action_type": "push",
       "deliver_at": "2026-10-01T10:11:49.017Z",

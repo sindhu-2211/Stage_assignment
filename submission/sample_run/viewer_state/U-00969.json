@@ -1,10 +1,10 @@
 {
   "user_id": "U-00969",
   "current_goal": {
-    "id": "G09",
-    "name": "weekly_habit_14d",
-    "deadline": "2026-10-15T16:25:35.975000Z",
-    "window_hours": 336
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:25:35.975000Z",
+    "window_hours": 72
   },
   "last_decision_id": "D-02453",
   "last_decision_at": "2026-10-01T16:25:35.975Z",
@@ -12,10 +12,10 @@
     {
       "decision_id": "D-00022",
       "goal": {
-        "id": "G09",
-        "name": "weekly_habit_14d",
-        "deadline": "2026-10-14T19:23:07.693000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-03T19:23:07.693000Z",
+        "window_hours": 72
       },
       "action_type": "no_action",
       "deliver_at": "2026-09-30T19:23:07.693Z",
@@ -24,10 +24,10 @@
     {
       "decision_id": "D-02453",
       "goal": {
-        "id": "G09",
-        "name": "weekly_habit_14d",
-        "deadline": "2026-10-15T16:25:35.975000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T16:25:35.975000Z",
+        "window_hours": 72
       },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T16:25:35.975Z",

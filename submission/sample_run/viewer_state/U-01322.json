@@ -17,7 +17,7 @@
         "deadline": "2026-10-02T16:24:21.378000Z",
         "window_hours": 24
       },
-      "action_type": "in_app_message",
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T16:24:21.378Z",
       "status": "ok"
     }

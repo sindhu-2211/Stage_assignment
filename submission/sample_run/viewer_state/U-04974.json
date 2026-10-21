@@ -29,9 +29,9 @@
         "deadline": "2026-10-04T05:09:13.643000Z",
         "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T05:09:13.643Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-01254",
@@ -41,9 +41,9 @@
         "deadline": "2026-10-04T10:01:09.384000Z",
         "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T10:01:09.384Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-01255",
@@ -53,9 +53,9 @@
         "deadline": "2026-10-04T10:01:09.419000Z",
         "window_hours": 72
       },
-      "action_type": "no_action",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T10:01:09.419Z",
-      "status": "downgraded"
+      "status": "ok"
     }
   ]
 }

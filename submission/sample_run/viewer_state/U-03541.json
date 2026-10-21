@@ -1,22 +1,37 @@
 {
   "user_id": "U-03541",
-  "current_goal": null,
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T05:06:41.899000Z",
+    "window_hours": 72
+  },
   "last_decision_id": "D-00622",
   "last_decision_at": "2026-10-01T05:06:41.899Z",
   "decision_history": [
     {
       "decision_id": "D-00397",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T04:45:23.689000Z",
+        "window_hours": 72
+      },
+      "action_type": "push",
       "deliver_at": "2026-10-01T04:45:23.689Z",
-      "status": "no_action"
+      "status": "ok"
     },
     {
       "decision_id": "D-00622",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T05:06:41.899000Z",
+        "window_hours": 72
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T05:06:41.899Z",
-      "status": "no_action"
+      "status": "ok"
     }
   ]
 }

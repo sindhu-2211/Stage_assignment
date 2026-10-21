@@ -17,9 +17,9 @@
         "deadline": "2026-10-03T23:16:09.749000Z",
         "window_hours": 72
       },
-      "action_type": "push",
+      "action_type": "no_action",
       "deliver_at": "2026-09-30T23:16:09.749Z",
-      "status": "ok"
+      "status": "downgraded"
     }
   ]
 }

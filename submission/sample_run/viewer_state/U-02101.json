@@ -1,10 +1,10 @@
 {
   "user_id": "U-02101",
   "current_goal": {
-    "id": "G06",
-    "name": "reactivate_lapsed_14d",
-    "deadline": "2026-10-15T15:19:22.825000Z",
-    "window_hours": 336
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:19:22.825000Z",
+    "window_hours": 72
   },
   "last_decision_id": "D-02222",
   "last_decision_at": "2026-10-01T15:19:22.825Z",
@@ -12,10 +12,10 @@
     {
       "decision_id": "D-02157",
       "goal": {
-        "id": "G06",
-        "name": "reactivate_lapsed_14d",
-        "deadline": "2026-10-15T15:08:18.217000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T15:08:18.217000Z",
+        "window_hours": 72
       },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T15:08:18.217Z",
@@ -24,10 +24,10 @@
     {
       "decision_id": "D-02222",
       "goal": {
-        "id": "G06",
-        "name": "reactivate_lapsed_14d",
-        "deadline": "2026-10-15T15:19:22.825000Z",
-        "window_hours": 336
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T15:19:22.825000Z",
+        "window_hours": 72
       },
       "action_type": "in_app_message",
       "deliver_at": "2026-10-01T15:19:22.825Z",

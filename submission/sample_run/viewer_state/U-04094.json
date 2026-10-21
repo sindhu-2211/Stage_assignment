@@ -7,10 +7,10 @@
     {
       "decision_id": "D-00029",
       "goal": {
-        "id": "G02",
-        "name": "first_full_episode_3d",
-        "deadline": "2026-10-03T19:39:08.522000Z",
-        "window_hours": 72
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-07T19:39:08.522000Z",
+        "window_hours": 168
       },
       "action_type": "push",
       "deliver_at": "2026-09-30T19:39:08.522Z",

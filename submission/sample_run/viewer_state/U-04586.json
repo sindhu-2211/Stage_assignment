@@ -1,8 +1,8 @@
 {
   "user_id": "U-04586",
   "current_goal": {
-    "id": "G05",
-    "name": "first_paid_7d",
+    "id": "G12",
+    "name": "return_after_absence_7d",
     "deadline": "2026-10-08T05:31:57.475000Z",
     "window_hours": 168
   },
@@ -12,12 +12,12 @@
     {
       "decision_id": "D-00681",
       "goal": {
-        "id": "G05",
-        "name": "first_paid_7d",
+        "id": "G12",
+        "name": "return_after_absence_7d",
         "deadline": "2026-10-08T05:31:57.475000Z",
         "window_hours": 168
       },
-      "action_type": "home_page",
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T05:31:57.475Z",
       "status": "ok"
     }

@@ -19,7 +19,7 @@
       },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T13:36:06.470Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01892",
@@ -31,7 +31,7 @@
       },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T14:24:33.209Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01933",
@@ -43,7 +43,7 @@
       },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T14:34:55.852Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }

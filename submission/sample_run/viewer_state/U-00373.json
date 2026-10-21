@@ -11,10 +11,15 @@
   "decision_history": [
     {
       "decision_id": "D-01698",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G01",
+        "name": "first_play_24h",
+        "deadline": "2026-10-02T13:28:58.654000Z",
+        "window_hours": 24
+      },
+      "action_type": "in_app_message",
       "deliver_at": "2026-10-01T13:28:58.654Z",
-      "status": "no_action"
+      "status": "ok"
     },
     {
       "decision_id": "D-01699",

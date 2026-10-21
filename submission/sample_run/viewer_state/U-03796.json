@@ -6,10 +6,15 @@
   "decision_history": [
     {
       "decision_id": "D-00580",
-      "goal": null,
+      "goal": {
+        "id": "G07",
+        "name": "resume_series_3d",
+        "deadline": "2026-10-04T04:47:55.086000Z",
+        "window_hours": 72
+      },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T04:47:55.086Z",
-      "status": "no_action"
+      "status": "downgraded"
     },
     {
       "decision_id": "D-01394",

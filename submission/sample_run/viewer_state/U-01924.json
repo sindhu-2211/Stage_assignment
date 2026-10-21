@@ -19,14 +19,14 @@
     {
       "decision_id": "D-01124",
       "goal": {
-        "id": "G02",
-        "name": "first_full_episode_3d",
-        "deadline": "2026-10-04T09:01:53.289000Z",
-        "window_hours": 72
+        "id": "G05",
+        "name": "first_paid_7d",
+        "deadline": "2026-10-08T09:01:53.289000Z",
+        "window_hours": 168
       },
-      "action_type": "no_action",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T09:01:53.289Z",
-      "status": "downgraded"
+      "status": "ok"
     },
     {
       "decision_id": "D-01366",

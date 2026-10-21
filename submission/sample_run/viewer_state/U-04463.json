@@ -1,10 +1,10 @@
 {
   "user_id": "U-04463",
   "current_goal": {
-    "id": "G02",
-    "name": "first_full_episode_3d",
-    "deadline": "2026-10-04T13:56:19.342000Z",
-    "window_hours": 72
+    "id": "G12",
+    "name": "return_after_absence_7d",
+    "deadline": "2026-10-08T13:56:19.342000Z",
+    "window_hours": 168
   },
   "last_decision_id": "D-01793",
   "last_decision_at": "2026-10-01T13:56:19.342Z",
@@ -12,10 +12,10 @@
     {
       "decision_id": "D-01793",
       "goal": {
-        "id": "G02",
-        "name": "first_full_episode_3d",
-        "deadline": "2026-10-04T13:56:19.342000Z",
-        "window_hours": 72
+        "id": "G12",
+        "name": "return_after_absence_7d",
+        "deadline": "2026-10-08T13:56:19.342000Z",
+        "window_hours": 168
       },
       "action_type": "push",
       "deliver_at": "2026-10-01T13:56:19.342Z",

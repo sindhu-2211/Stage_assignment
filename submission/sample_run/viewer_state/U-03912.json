@@ -19,7 +19,7 @@
       },
       "action_type": "no_action",
       "deliver_at": "2026-10-01T04:46:58.064Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }

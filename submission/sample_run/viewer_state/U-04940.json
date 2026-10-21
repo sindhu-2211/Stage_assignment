@@ -1,6 +1,11 @@
 {
   "user_id": "U-04940",
-  "current_goal": null,
+  "current_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "deadline": "2026-10-15T08:45:20.278000Z",
+    "window_hours": 336
+  },
   "last_decision_id": "D-01095",
   "last_decision_at": "2026-10-01T08:45:20.278Z",
   "decision_history": [
@@ -18,10 +23,15 @@
     },
     {
       "decision_id": "D-01095",
-      "goal": null,
-      "action_type": "no_action",
+      "goal": {
+        "id": "G06",
+        "name": "reactivate_lapsed_14d",
+        "deadline": "2026-10-15T08:45:20.278000Z",
+        "window_hours": 336
+      },
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T08:45:20.278Z",
-      "status": "no_action"
+      "status": "ok"
     }
   ]
 }

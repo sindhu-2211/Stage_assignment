@@ -17,7 +17,7 @@
         "deadline": "2026-10-15T04:40:32.755000Z",
         "window_hours": 336
       },
-      "action_type": "in_app_message",
+      "action_type": "whatsapp",
       "deliver_at": "2026-10-01T04:40:32.755Z",
       "status": "ok"
     },
@@ -29,7 +29,7 @@
         "deadline": "2026-10-15T04:46:10.296000Z",
         "window_hours": 336
       },
-      "action_type": "in_app_message",
+      "action_type": "home_page",
       "deliver_at": "2026-10-01T04:46:10.296Z",
       "status": "ok"
     }
