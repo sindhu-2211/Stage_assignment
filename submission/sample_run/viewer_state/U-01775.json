@@ -11,27 +11,17 @@
   "decision_history": [
     {
       "decision_id": "D-01311",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T10:34:43.379000Z",
-        "window_hours": 72
-      },
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T10:34:43.379Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01312",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T10:34:47.112000Z",
-        "window_hours": 72
-      },
-      "action_type": "in_app_message",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T10:34:47.112Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01765",

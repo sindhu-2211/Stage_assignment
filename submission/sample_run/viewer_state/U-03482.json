@@ -1,37 +1,22 @@
 {
   "user_id": "U-03482",
-  "current_goal": {
-    "id": "G07",
-    "name": "resume_series_3d",
-    "deadline": "2026-10-04T10:22:24.974000Z",
-    "window_hours": 72
-  },
+  "current_goal": null,
   "last_decision_id": "D-01297",
   "last_decision_at": "2026-10-01T10:22:24.974Z",
   "decision_history": [
     {
       "decision_id": "D-00091",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T00:49:43.920000Z",
-        "window_hours": 72
-      },
-      "action_type": "whatsapp",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T00:49:43.920Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01297",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T10:22:24.974000Z",
-        "window_hours": 72
-      },
-      "action_type": "in_app_message",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T10:22:24.974Z",
-      "status": "ok"
+      "status": "no_action"
     }
   ]
 }

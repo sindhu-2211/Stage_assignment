@@ -1,73 +1,43 @@
 {
   "user_id": "U-01092",
-  "current_goal": {
-    "id": "G07",
-    "name": "resume_series_3d",
-    "deadline": "2026-10-04T14:28:58.385000Z",
-    "window_hours": 72
-  },
+  "current_goal": null,
   "last_decision_id": "D-01912",
   "last_decision_at": "2026-10-01T14:28:58.385Z",
   "decision_history": [
     {
       "decision_id": "D-01012",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T08:08:30.201000Z",
-        "window_hours": 72
-      },
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T08:08:30.201Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01154",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T09:11:51.509000Z",
-        "window_hours": 72
-      },
-      "action_type": "home_page",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T09:11:51.509Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01155",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T09:11:55.935000Z",
-        "window_hours": 72
-      },
-      "action_type": "home_page",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T09:11:55.935Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01911",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T14:28:57.209000Z",
-        "window_hours": 72
-      },
-      "action_type": "home_page",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T14:28:57.209Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01912",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T14:28:58.385000Z",
-        "window_hours": 72
-      },
-      "action_type": "home_page",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T14:28:58.385Z",
-      "status": "ok"
+      "status": "no_action"
     }
   ]
 }

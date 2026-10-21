@@ -1,5 +1,5 @@
 {"decision_id": "D-00001", "viewer_id": "U-02344", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00002", "viewer_id": "U-00548", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00002", "viewer_id": "U-00548", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00003", "viewer_id": "U-01268", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00004", "viewer_id": "U-02905", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-00005", "viewer_id": "U-02932", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -10,10 +10,10 @@
 {"decision_id": "D-00010", "viewer_id": "U-01827", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00011", "viewer_id": "U-00537", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003607"], "window_hours": 168}
 {"decision_id": "D-00012", "viewer_id": "U-04888", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030863"], "window_hours": 168}
-{"decision_id": "D-00013", "viewer_id": "U-01256", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00013", "viewer_id": "U-01256", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00014", "viewer_id": "U-03456", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021838"], "window_hours": 168}
 {"decision_id": "D-00015", "viewer_id": "U-04720", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00016", "viewer_id": "U-04945", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00016", "viewer_id": "U-04945", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00017", "viewer_id": "U-02825", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00018", "viewer_id": "U-01386", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["oua-009458"], "window_hours": 168}
 {"decision_id": "D-00019", "viewer_id": "U-02451", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015575"], "window_hours": 168}
@@ -27,7 +27,7 @@
 {"decision_id": "D-00027", "viewer_id": "U-03644", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00028", "viewer_id": "U-03547", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022567"], "window_hours": 168}
 {"decision_id": "D-00029", "viewer_id": "U-04094", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-026135"], "window_hours": 168}
-{"decision_id": "D-00030", "viewer_id": "U-01822", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00030", "viewer_id": "U-01822", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00031", "viewer_id": "U-04299", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00032", "viewer_id": "U-02080", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013690"], "window_hours": 168}
 {"decision_id": "D-00033", "viewer_id": "U-02167", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -68,7 +68,7 @@
 {"decision_id": "D-00068", "viewer_id": "U-01302", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00069", "viewer_id": "U-02291", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014902"], "window_hours": 168}
 {"decision_id": "D-00070", "viewer_id": "U-03615", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00071", "viewer_id": "U-02669", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00071", "viewer_id": "U-02669", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00072", "viewer_id": "U-03133", "goal_id": "G07", "outcome": "succeeded", "evidence_events": ["oua-019684"], "window_hours": 72}
 {"decision_id": "D-00073", "viewer_id": "U-03492", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00074", "viewer_id": "U-01989", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013132"], "window_hours": 168}
@@ -88,14 +88,14 @@
 {"decision_id": "D-00088", "viewer_id": "U-03679", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023576"], "window_hours": 168}
 {"decision_id": "D-00089", "viewer_id": "U-03679", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023576"], "window_hours": 168}
 {"decision_id": "D-00090", "viewer_id": "U-00903", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-006060"], "window_hours": 168}
-{"decision_id": "D-00091", "viewer_id": "U-03482", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00092", "viewer_id": "U-00667", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00091", "viewer_id": "U-03482", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-00092", "viewer_id": "U-00667", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00093", "viewer_id": "U-04814", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00094", "viewer_id": "U-03637", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-023222"], "window_hours": 168}
 {"decision_id": "D-00095", "viewer_id": "U-04734", "goal_id": "G07", "outcome": "succeeded", "evidence_events": ["oua-029769"], "window_hours": 72}
 {"decision_id": "D-00096", "viewer_id": "U-01632", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00097", "viewer_id": "U-02358", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015153"], "window_hours": 168}
-{"decision_id": "D-00098", "viewer_id": "U-03803", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00098", "viewer_id": "U-03803", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00099", "viewer_id": "U-01486", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010147"], "window_hours": 168}
 {"decision_id": "D-00100", "viewer_id": "U-03229", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020450"], "window_hours": 168}
 {"decision_id": "D-00101", "viewer_id": "U-03826", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024515"], "window_hours": 168}
@@ -142,11 +142,11 @@
 {"decision_id": "D-00142", "viewer_id": "U-03254", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00143", "viewer_id": "U-01197", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007944"], "window_hours": 168}
 {"decision_id": "D-00144", "viewer_id": "U-01197", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007944"], "window_hours": 168}
-{"decision_id": "D-00145", "viewer_id": "U-04503", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00145", "viewer_id": "U-04503", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00146", "viewer_id": "U-01851", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00147", "viewer_id": "U-03316", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00148", "viewer_id": "U-00023", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00149", "viewer_id": "U-00023", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00148", "viewer_id": "U-00023", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-00149", "viewer_id": "U-00023", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00150", "viewer_id": "U-03480", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00151", "viewer_id": "U-04646", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029241"], "window_hours": 168}
 {"decision_id": "D-00152", "viewer_id": "U-02420", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -157,7 +157,7 @@
 {"decision_id": "D-00157", "viewer_id": "U-04741", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00158", "viewer_id": "U-02531", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016007"], "window_hours": 168}
 {"decision_id": "D-00159", "viewer_id": "U-03615", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00160", "viewer_id": "U-04503", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00160", "viewer_id": "U-04503", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00161", "viewer_id": "U-02980", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018697"], "window_hours": 168}
 {"decision_id": "D-00162", "viewer_id": "U-04547", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-028623"], "window_hours": 168}
 {"decision_id": "D-00163", "viewer_id": "U-01144", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -182,7 +182,7 @@
 {"decision_id": "D-00182", "viewer_id": "U-00615", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004010"], "window_hours": 168}
 {"decision_id": "D-00183", "viewer_id": "U-00710", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004675"], "window_hours": 168}
 {"decision_id": "D-00184", "viewer_id": "U-03017", "goal_id": "G09", "outcome": "succeeded", "evidence_events": ["oua-018901", "oua-018904", "oua-018908"], "window_hours": 336}
-{"decision_id": "D-00185", "viewer_id": "U-04961", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00185", "viewer_id": "U-04961", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00186", "viewer_id": "U-02781", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00187", "viewer_id": "U-02781", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00188", "viewer_id": "U-01427", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009753"], "window_hours": 168}
@@ -192,7 +192,7 @@
 {"decision_id": "D-00192", "viewer_id": "U-03838", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00193", "viewer_id": "U-04988", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00194", "viewer_id": "U-04988", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00195", "viewer_id": "U-01483", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00195", "viewer_id": "U-01483", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00196", "viewer_id": "U-02693", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016959"], "window_hours": 168}
 {"decision_id": "D-00197", "viewer_id": "U-01766", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00198", "viewer_id": "U-01766", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -202,7 +202,7 @@
 {"decision_id": "D-00202", "viewer_id": "U-03215", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["75a48de4-47bd-40bd-9ac5-42f62f5089ab"], "window_hours": 168}
 {"decision_id": "D-00203", "viewer_id": "U-04961", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00204", "viewer_id": "U-02850", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00205", "viewer_id": "U-03850", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00205", "viewer_id": "U-03850", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00206", "viewer_id": "U-04179", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00207", "viewer_id": "U-02703", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017079"], "window_hours": 168}
 {"decision_id": "D-00208", "viewer_id": "U-04100", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026159"], "window_hours": 168}
@@ -220,7 +220,7 @@
 {"decision_id": "D-00220", "viewer_id": "U-02830", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017858"], "window_hours": 168}
 {"decision_id": "D-00221", "viewer_id": "U-01840", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00222", "viewer_id": "U-02830", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017858"], "window_hours": 168}
-{"decision_id": "D-00223", "viewer_id": "U-00284", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00223", "viewer_id": "U-00284", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00224", "viewer_id": "U-04006", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00225", "viewer_id": "U-03496", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00226", "viewer_id": "U-02004", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -239,8 +239,8 @@
 {"decision_id": "D-00239", "viewer_id": "U-01562", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010642"], "window_hours": 168}
 {"decision_id": "D-00240", "viewer_id": "U-03928", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025158"], "window_hours": 168}
 {"decision_id": "D-00241", "viewer_id": "U-03928", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025158"], "window_hours": 168}
-{"decision_id": "D-00242", "viewer_id": "U-04794", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00243", "viewer_id": "U-01556", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00242", "viewer_id": "U-04794", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00243", "viewer_id": "U-01556", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00244", "viewer_id": "U-02928", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00245", "viewer_id": "U-02928", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00246", "viewer_id": "U-03170", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019958"], "window_hours": 168}
@@ -251,11 +251,11 @@
 {"decision_id": "D-00251", "viewer_id": "U-01382", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00252", "viewer_id": "U-02181", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00253", "viewer_id": "U-02169", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014139"], "window_hours": 168}
-{"decision_id": "D-00254", "viewer_id": "U-04744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00254", "viewer_id": "U-04744", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00255", "viewer_id": "U-00318", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-00256", "viewer_id": "U-04714", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029678"], "window_hours": 168}
 {"decision_id": "D-00257", "viewer_id": "U-04697", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029543"], "window_hours": 168}
-{"decision_id": "D-00258", "viewer_id": "U-01999", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00258", "viewer_id": "U-01999", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00259", "viewer_id": "U-04794", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00260", "viewer_id": "U-04306", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00261", "viewer_id": "U-00604", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -271,7 +271,7 @@
 {"decision_id": "D-00271", "viewer_id": "U-02762", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00272", "viewer_id": "U-03613", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00273", "viewer_id": "U-00417", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002858"], "window_hours": 168}
-{"decision_id": "D-00274", "viewer_id": "U-04542", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00274", "viewer_id": "U-04542", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00275", "viewer_id": "U-00432", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00276", "viewer_id": "U-00949", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00277", "viewer_id": "U-04184", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026640"], "window_hours": 168}
@@ -280,7 +280,7 @@
 {"decision_id": "D-00280", "viewer_id": "U-02466", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00281", "viewer_id": "U-04888", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00282", "viewer_id": "U-00261", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001873"], "window_hours": 168}
-{"decision_id": "D-00283", "viewer_id": "U-04103", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00283", "viewer_id": "U-04103", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00284", "viewer_id": "U-02453", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00285", "viewer_id": "U-00343", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00286", "viewer_id": "U-02308", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -305,7 +305,7 @@
 {"decision_id": "D-00305", "viewer_id": "U-04525", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028455"], "window_hours": 168}
 {"decision_id": "D-00306", "viewer_id": "U-04482", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028253"], "window_hours": 168}
 {"decision_id": "D-00307", "viewer_id": "U-04340", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00308", "viewer_id": "U-03172", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00308", "viewer_id": "U-03172", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00309", "viewer_id": "U-01079", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00310", "viewer_id": "U-00837", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005618"], "window_hours": 168}
 {"decision_id": "D-00311", "viewer_id": "U-00837", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005618"], "window_hours": 168}
@@ -327,10 +327,10 @@
 {"decision_id": "D-00327", "viewer_id": "U-03052", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00328", "viewer_id": "U-00647", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-004228"], "window_hours": 168}
 {"decision_id": "D-00329", "viewer_id": "U-02167", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-00330", "viewer_id": "U-04744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00330", "viewer_id": "U-04744", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00331", "viewer_id": "U-03941", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025236"], "window_hours": 168}
 {"decision_id": "D-00332", "viewer_id": "U-00305", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-002107"], "window_hours": 168}
-{"decision_id": "D-00333", "viewer_id": "U-04744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00333", "viewer_id": "U-04744", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00334", "viewer_id": "U-02230", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014495"], "window_hours": 168}
 {"decision_id": "D-00335", "viewer_id": "U-02774", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00336", "viewer_id": "U-03068", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -345,10 +345,10 @@
 {"decision_id": "D-00345", "viewer_id": "U-00883", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005865"], "window_hours": 168}
 {"decision_id": "D-00346", "viewer_id": "U-03661", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023454"], "window_hours": 168}
 {"decision_id": "D-00347", "viewer_id": "U-00652", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00348", "viewer_id": "U-00118", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00348", "viewer_id": "U-00118", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00349", "viewer_id": "U-04984", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-031667"], "window_hours": 168}
 {"decision_id": "D-00350", "viewer_id": "U-02440", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00351", "viewer_id": "U-04945", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00351", "viewer_id": "U-04945", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00352", "viewer_id": "U-02530", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015991"], "window_hours": 168}
 {"decision_id": "D-00353", "viewer_id": "U-04653", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00354", "viewer_id": "U-04321", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -357,7 +357,7 @@
 {"decision_id": "D-00357", "viewer_id": "U-00908", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00358", "viewer_id": "U-03835", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024570"], "window_hours": 168}
 {"decision_id": "D-00359", "viewer_id": "U-01649", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00360", "viewer_id": "U-00118", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00360", "viewer_id": "U-00118", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00361", "viewer_id": "U-04393", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00362", "viewer_id": "U-01703", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["ef105520-3dd0-4e83-9f53-b7d10a05a305"], "window_hours": 168}
 {"decision_id": "D-00363", "viewer_id": "U-03756", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024169"], "window_hours": 168}
@@ -367,7 +367,7 @@
 {"decision_id": "D-00367", "viewer_id": "U-00505", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-003509"], "window_hours": 168}
 {"decision_id": "D-00368", "viewer_id": "U-00431", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00369", "viewer_id": "U-02317", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00370", "viewer_id": "U-04867", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00370", "viewer_id": "U-04867", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00371", "viewer_id": "U-04376", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00372", "viewer_id": "U-01409", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00373", "viewer_id": "U-01518", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
@@ -377,31 +377,31 @@
 {"decision_id": "D-00377", "viewer_id": "U-00919", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00378", "viewer_id": "U-03651", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00379", "viewer_id": "U-03068", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00380", "viewer_id": "U-00157", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00380", "viewer_id": "U-00157", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00381", "viewer_id": "U-03732", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024028"], "window_hours": 168}
 {"decision_id": "D-00382", "viewer_id": "U-02702", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00383", "viewer_id": "U-03425", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00384", "viewer_id": "U-03486", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022105"], "window_hours": 168}
 {"decision_id": "D-00385", "viewer_id": "U-01667", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00386", "viewer_id": "U-00423", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002881"], "window_hours": 168}
-{"decision_id": "D-00387", "viewer_id": "U-04060", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00387", "viewer_id": "U-04060", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00388", "viewer_id": "U-01221", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00389", "viewer_id": "U-04355", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00390", "viewer_id": "U-03892", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00391", "viewer_id": "U-00075", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00391", "viewer_id": "U-00075", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00392", "viewer_id": "U-03904", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00393", "viewer_id": "U-04110", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00394", "viewer_id": "U-04575", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00395", "viewer_id": "U-01938", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00396", "viewer_id": "U-04927", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-031224"], "window_hours": 168}
-{"decision_id": "D-00397", "viewer_id": "U-03541", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00397", "viewer_id": "U-03541", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00398", "viewer_id": "U-03075", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019375"], "window_hours": 168}
 {"decision_id": "D-00399", "viewer_id": "U-01959", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00400", "viewer_id": "U-04962", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00400", "viewer_id": "U-04962", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00401", "viewer_id": "U-00672", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00402", "viewer_id": "U-00062", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00403", "viewer_id": "U-00415", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00404", "viewer_id": "U-02691", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00404", "viewer_id": "U-02691", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00405", "viewer_id": "U-04483", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00406", "viewer_id": "U-04226", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00407", "viewer_id": "U-03504", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -413,7 +413,7 @@
 {"decision_id": "D-00413", "viewer_id": "U-02338", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00414", "viewer_id": "U-00532", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00415", "viewer_id": "U-01912", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012843"], "window_hours": 168}
-{"decision_id": "D-00416", "viewer_id": "U-00206", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00416", "viewer_id": "U-00206", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00417", "viewer_id": "U-04476", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00418", "viewer_id": "U-03234", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00419", "viewer_id": "U-02755", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -432,7 +432,7 @@
 {"decision_id": "D-00432", "viewer_id": "U-04008", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025669"], "window_hours": 168}
 {"decision_id": "D-00433", "viewer_id": "U-00746", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-00434", "viewer_id": "U-01590", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00435", "viewer_id": "U-00130", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00435", "viewer_id": "U-00130", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00436", "viewer_id": "U-03081", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00437", "viewer_id": "U-01584", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010766"], "window_hours": 168}
 {"decision_id": "D-00438", "viewer_id": "U-04860", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
@@ -443,7 +443,7 @@
 {"decision_id": "D-00443", "viewer_id": "U-03208", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00444", "viewer_id": "U-04398", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00445", "viewer_id": "U-04598", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00446", "viewer_id": "U-02171", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00446", "viewer_id": "U-02171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00447", "viewer_id": "U-03718", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00448", "viewer_id": "U-01491", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00449", "viewer_id": "U-03998", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025575"], "window_hours": 168}
@@ -453,14 +453,14 @@
 {"decision_id": "D-00453", "viewer_id": "U-02076", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00454", "viewer_id": "U-00108", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000700"], "window_hours": 168}
 {"decision_id": "D-00455", "viewer_id": "U-01170", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00456", "viewer_id": "U-01711", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00456", "viewer_id": "U-01711", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00457", "viewer_id": "U-00827", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00458", "viewer_id": "U-03911", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00458", "viewer_id": "U-03911", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00459", "viewer_id": "U-04653", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00460", "viewer_id": "U-03134", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-00461", "viewer_id": "U-03171", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019972"], "window_hours": 168}
 {"decision_id": "D-00462", "viewer_id": "U-02166", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00463", "viewer_id": "U-00548", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00463", "viewer_id": "U-00548", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00464", "viewer_id": "U-00183", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00465", "viewer_id": "U-03560", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022662"], "window_hours": 168}
 {"decision_id": "D-00466", "viewer_id": "U-02269", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -471,7 +471,7 @@
 {"decision_id": "D-00471", "viewer_id": "U-02978", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018684"], "window_hours": 168}
 {"decision_id": "D-00472", "viewer_id": "U-00071", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00473", "viewer_id": "U-04239", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00474", "viewer_id": "U-01171", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00474", "viewer_id": "U-01171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00475", "viewer_id": "U-01545", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00476", "viewer_id": "U-01967", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013068"], "window_hours": 168}
 {"decision_id": "D-00477", "viewer_id": "U-00682", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -485,7 +485,7 @@
 {"decision_id": "D-00485", "viewer_id": "U-03357", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00486", "viewer_id": "U-02070", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00487", "viewer_id": "U-03581", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00488", "viewer_id": "U-04187", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00488", "viewer_id": "U-04187", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00489", "viewer_id": "U-00660", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004296"], "window_hours": 168}
 {"decision_id": "D-00490", "viewer_id": "U-03957", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00491", "viewer_id": "U-04884", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030772"], "window_hours": 168}
@@ -509,12 +509,12 @@
 {"decision_id": "D-00509", "viewer_id": "U-03713", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00510", "viewer_id": "U-00775", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005226"], "window_hours": 168}
 {"decision_id": "D-00511", "viewer_id": "U-03108", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019593"], "window_hours": 168}
-{"decision_id": "D-00512", "viewer_id": "U-01256", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00512", "viewer_id": "U-01256", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00513", "viewer_id": "U-02830", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017864"], "window_hours": 168}
 {"decision_id": "D-00514", "viewer_id": "U-03912", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00515", "viewer_id": "U-02580", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00516", "viewer_id": "U-01613", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00517", "viewer_id": "U-00473", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00517", "viewer_id": "U-00473", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00518", "viewer_id": "U-03183", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020133"], "window_hours": 168}
 {"decision_id": "D-00519", "viewer_id": "U-02670", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016721"], "window_hours": 168}
 {"decision_id": "D-00520", "viewer_id": "U-00681", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -525,7 +525,7 @@
 {"decision_id": "D-00525", "viewer_id": "U-00445", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00526", "viewer_id": "U-00893", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005970"], "window_hours": 168}
 {"decision_id": "D-00527", "viewer_id": "U-00641", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00528", "viewer_id": "U-02205", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00528", "viewer_id": "U-02205", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00529", "viewer_id": "U-04845", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030614"], "window_hours": 168}
 {"decision_id": "D-00530", "viewer_id": "U-02528", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00531", "viewer_id": "U-04038", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025855"], "window_hours": 168}
@@ -536,7 +536,7 @@
 {"decision_id": "D-00536", "viewer_id": "U-04229", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00537", "viewer_id": "U-00687", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00538", "viewer_id": "U-04539", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["fe6ad3b2-4df7-4081-b3e3-b4d6940463b1"], "window_hours": 168}
-{"decision_id": "D-00539", "viewer_id": "U-01946", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00539", "viewer_id": "U-01946", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00540", "viewer_id": "U-04531", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028504"], "window_hours": 168}
 {"decision_id": "D-00541", "viewer_id": "U-00939", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006264"], "window_hours": 168}
 {"decision_id": "D-00542", "viewer_id": "U-04963", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -565,7 +565,7 @@
 {"decision_id": "D-00565", "viewer_id": "U-02650", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00566", "viewer_id": "U-01055", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007076"], "window_hours": 168}
 {"decision_id": "D-00567", "viewer_id": "U-04220", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00568", "viewer_id": "U-00070", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00568", "viewer_id": "U-00070", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00569", "viewer_id": "U-00975", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006574"], "window_hours": 168}
 {"decision_id": "D-00570", "viewer_id": "U-03744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00571", "viewer_id": "U-02790", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017558"], "window_hours": 168}
@@ -577,13 +577,13 @@
 {"decision_id": "D-00577", "viewer_id": "U-04210", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026820"], "window_hours": 168}
 {"decision_id": "D-00578", "viewer_id": "U-01630", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010983"], "window_hours": 168}
 {"decision_id": "D-00579", "viewer_id": "U-01953", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013039"], "window_hours": 168}
-{"decision_id": "D-00580", "viewer_id": "U-03796", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00580", "viewer_id": "U-03796", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00581", "viewer_id": "U-00723", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00582", "viewer_id": "U-01151", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00583", "viewer_id": "U-02079", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00584", "viewer_id": "U-01343", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009013"], "window_hours": 168}
 {"decision_id": "D-00585", "viewer_id": "U-01655", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00586", "viewer_id": "U-00875", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00586", "viewer_id": "U-00875", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00587", "viewer_id": "U-01343", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009013"], "window_hours": 168}
 {"decision_id": "D-00588", "viewer_id": "U-03434", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021760"], "window_hours": 168}
 {"decision_id": "D-00589", "viewer_id": "U-01219", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-008087"], "window_hours": 168}
@@ -596,7 +596,7 @@
 {"decision_id": "D-00596", "viewer_id": "U-04685", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00597", "viewer_id": "U-01832", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00598", "viewer_id": "U-01832", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
-{"decision_id": "D-00599", "viewer_id": "U-04945", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00599", "viewer_id": "U-04945", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00600", "viewer_id": "U-03297", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020934"], "window_hours": 168}
 {"decision_id": "D-00601", "viewer_id": "U-01832", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00602", "viewer_id": "U-01253", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -619,13 +619,13 @@
 {"decision_id": "D-00619", "viewer_id": "U-01487", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00620", "viewer_id": "U-01487", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00621", "viewer_id": "U-04232", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00622", "viewer_id": "U-03541", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00622", "viewer_id": "U-03541", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00623", "viewer_id": "U-04232", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00624", "viewer_id": "U-03550", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00625", "viewer_id": "U-03284", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020836"], "window_hours": 168}
 {"decision_id": "D-00626", "viewer_id": "U-03548", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00627", "viewer_id": "U-03548", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00628", "viewer_id": "U-01468", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00628", "viewer_id": "U-01468", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00629", "viewer_id": "U-02419", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015453"], "window_hours": 168}
 {"decision_id": "D-00630", "viewer_id": "U-04376", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00631", "viewer_id": "U-01456", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -634,7 +634,7 @@
 {"decision_id": "D-00634", "viewer_id": "U-03868", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00635", "viewer_id": "U-02140", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00636", "viewer_id": "U-01219", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-008087"], "window_hours": 168}
-{"decision_id": "D-00637", "viewer_id": "U-01200", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00637", "viewer_id": "U-01200", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00638", "viewer_id": "U-00965", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00639", "viewer_id": "U-00156", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000937"], "window_hours": 168}
 {"decision_id": "D-00640", "viewer_id": "U-00156", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000937"], "window_hours": 168}
@@ -656,7 +656,7 @@
 {"decision_id": "D-00656", "viewer_id": "U-01045", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007004"], "window_hours": 168}
 {"decision_id": "D-00657", "viewer_id": "U-04943", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00658", "viewer_id": "U-00429", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002935"], "window_hours": 168}
-{"decision_id": "D-00659", "viewer_id": "U-04945", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00659", "viewer_id": "U-04945", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00660", "viewer_id": "U-03299", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021000"], "window_hours": 168}
 {"decision_id": "D-00661", "viewer_id": "U-03299", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021000"], "window_hours": 168}
 {"decision_id": "D-00662", "viewer_id": "U-02142", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014033"], "window_hours": 168}
@@ -674,7 +674,7 @@
 {"decision_id": "D-00674", "viewer_id": "U-01540", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-00675", "viewer_id": "U-00545", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["oua-003618"], "window_hours": 168}
 {"decision_id": "D-00676", "viewer_id": "U-00545", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["oua-003618"], "window_hours": 168}
-{"decision_id": "D-00677", "viewer_id": "U-00760", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00677", "viewer_id": "U-00760", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00678", "viewer_id": "U-04044", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025903"], "window_hours": 168}
 {"decision_id": "D-00679", "viewer_id": "U-00629", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00680", "viewer_id": "U-00251", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001779"], "window_hours": 168}
@@ -690,7 +690,7 @@
 {"decision_id": "D-00690", "viewer_id": "U-01449", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00691", "viewer_id": "U-00509", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003531"], "window_hours": 168}
 {"decision_id": "D-00692", "viewer_id": "U-00509", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003531"], "window_hours": 168}
-{"decision_id": "D-00693", "viewer_id": "U-02044", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00693", "viewer_id": "U-02044", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00694", "viewer_id": "U-03908", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025033"], "window_hours": 168}
 {"decision_id": "D-00695", "viewer_id": "U-01089", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007305"], "window_hours": 168}
 {"decision_id": "D-00696", "viewer_id": "U-01919", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -760,7 +760,7 @@
 {"decision_id": "D-00760", "viewer_id": "U-00785", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005324"], "window_hours": 168}
 {"decision_id": "D-00761", "viewer_id": "U-02650", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00762", "viewer_id": "U-00133", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00763", "viewer_id": "U-00955", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00763", "viewer_id": "U-00955", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00764", "viewer_id": "U-03812", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00765", "viewer_id": "U-03615", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00766", "viewer_id": "U-03514", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
@@ -793,14 +793,14 @@
 {"decision_id": "D-00793", "viewer_id": "U-00044", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00794", "viewer_id": "U-01399", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00795", "viewer_id": "U-03501", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-022181"], "window_hours": 168}
-{"decision_id": "D-00796", "viewer_id": "U-01810", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00796", "viewer_id": "U-01810", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00797", "viewer_id": "U-01453", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00798", "viewer_id": "U-00326", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002278"], "window_hours": 168}
 {"decision_id": "D-00799", "viewer_id": "U-00326", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002278"], "window_hours": 168}
 {"decision_id": "D-00800", "viewer_id": "U-00432", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00801", "viewer_id": "U-03535", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00802", "viewer_id": "U-00417", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002858"], "window_hours": 168}
-{"decision_id": "D-00803", "viewer_id": "U-00045", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00803", "viewer_id": "U-00045", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00804", "viewer_id": "U-01015", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006852"], "window_hours": 168}
 {"decision_id": "D-00805", "viewer_id": "U-02102", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013782"], "window_hours": 168}
 {"decision_id": "D-00806", "viewer_id": "U-02844", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -811,8 +811,8 @@
 {"decision_id": "D-00811", "viewer_id": "U-01885", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00812", "viewer_id": "U-01044", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006968"], "window_hours": 168}
 {"decision_id": "D-00813", "viewer_id": "U-01044", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006968"], "window_hours": 168}
-{"decision_id": "D-00814", "viewer_id": "U-04542", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00815", "viewer_id": "U-03792", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00814", "viewer_id": "U-04542", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-00815", "viewer_id": "U-03792", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00816", "viewer_id": "U-01214", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-008024"], "window_hours": 168}
 {"decision_id": "D-00817", "viewer_id": "U-03873", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00818", "viewer_id": "U-03873", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -822,7 +822,7 @@
 {"decision_id": "D-00822", "viewer_id": "U-04305", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00823", "viewer_id": "U-04305", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00824", "viewer_id": "U-02535", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00825", "viewer_id": "U-02489", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00825", "viewer_id": "U-02489", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00826", "viewer_id": "U-04731", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00827", "viewer_id": "U-04790", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030197"], "window_hours": 168}
 {"decision_id": "D-00828", "viewer_id": "U-03370", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
@@ -873,7 +873,7 @@
 {"decision_id": "D-00873", "viewer_id": "U-01373", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009397"], "window_hours": 168}
 {"decision_id": "D-00874", "viewer_id": "U-03385", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00875", "viewer_id": "U-00602", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003902"], "window_hours": 168}
-{"decision_id": "D-00876", "viewer_id": "U-00260", "goal_id": "G07", "outcome": "succeeded", "evidence_events": ["oua-001844"], "window_hours": 72}
+{"decision_id": "D-00876", "viewer_id": "U-00260", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00877", "viewer_id": "U-01326", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00878", "viewer_id": "U-03772", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00879", "viewer_id": "U-04775", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -904,7 +904,7 @@
 {"decision_id": "D-00904", "viewer_id": "U-04464", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028208"], "window_hours": 168}
 {"decision_id": "D-00905", "viewer_id": "U-04464", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028208"], "window_hours": 168}
 {"decision_id": "D-00906", "viewer_id": "U-04472", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00907", "viewer_id": "U-00784", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00907", "viewer_id": "U-00784", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00908", "viewer_id": "U-04898", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00909", "viewer_id": "U-04898", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00910", "viewer_id": "U-03170", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019958"], "window_hours": 168}
@@ -920,9 +920,9 @@
 {"decision_id": "D-00920", "viewer_id": "U-04033", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025788"], "window_hours": 168}
 {"decision_id": "D-00921", "viewer_id": "U-00290", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-00922", "viewer_id": "U-00583", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00923", "viewer_id": "U-01559", "goal_id": "G07", "outcome": "succeeded", "evidence_events": ["07f60999-093d-4b6e-85ed-81e01f1b4757"], "window_hours": 72}
+{"decision_id": "D-00923", "viewer_id": "U-01559", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00924", "viewer_id": "U-00460", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00925", "viewer_id": "U-01303", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00925", "viewer_id": "U-01303", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00926", "viewer_id": "U-03720", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023959"], "window_hours": 168}
 {"decision_id": "D-00927", "viewer_id": "U-04611", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00928", "viewer_id": "U-04611", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -959,7 +959,7 @@
 {"decision_id": "D-00959", "viewer_id": "U-00795", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005363"], "window_hours": 168}
 {"decision_id": "D-00960", "viewer_id": "U-04203", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00961", "viewer_id": "U-01079", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-00962", "viewer_id": "U-04265", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00962", "viewer_id": "U-04265", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00963", "viewer_id": "U-00945", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00964", "viewer_id": "U-00945", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-00965", "viewer_id": "U-04319", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -967,7 +967,7 @@
 {"decision_id": "D-00967", "viewer_id": "U-04635", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00968", "viewer_id": "U-02670", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016721"], "window_hours": 168}
 {"decision_id": "D-00969", "viewer_id": "U-03604", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-00970", "viewer_id": "U-01345", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-00970", "viewer_id": "U-01345", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-00971", "viewer_id": "U-03254", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-00972", "viewer_id": "U-01863", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012622"], "window_hours": 168}
 {"decision_id": "D-00973", "viewer_id": "U-02873", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1009,7 +1009,7 @@
 {"decision_id": "D-01009", "viewer_id": "U-04848", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01010", "viewer_id": "U-02609", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01011", "viewer_id": "U-03067", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01012", "viewer_id": "U-01092", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01012", "viewer_id": "U-01092", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01013", "viewer_id": "U-04311", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01014", "viewer_id": "U-04311", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01015", "viewer_id": "U-02557", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -1020,7 +1020,7 @@
 {"decision_id": "D-01020", "viewer_id": "U-02842", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01021", "viewer_id": "U-02656", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01022", "viewer_id": "U-04872", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01023", "viewer_id": "U-04687", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01023", "viewer_id": "U-04687", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01024", "viewer_id": "U-02769", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017425"], "window_hours": 168}
 {"decision_id": "D-01025", "viewer_id": "U-01356", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01026", "viewer_id": "U-00594", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1046,8 +1046,8 @@
 {"decision_id": "D-01046", "viewer_id": "U-00478", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01047", "viewer_id": "U-03676", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023547"], "window_hours": 168}
 {"decision_id": "D-01048", "viewer_id": "U-00757", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01049", "viewer_id": "U-02215", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01050", "viewer_id": "U-00284", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01049", "viewer_id": "U-02215", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01050", "viewer_id": "U-00284", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01051", "viewer_id": "U-00674", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004384"], "window_hours": 168}
 {"decision_id": "D-01052", "viewer_id": "U-04190", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026699"], "window_hours": 168}
 {"decision_id": "D-01053", "viewer_id": "U-04575", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -1068,7 +1068,7 @@
 {"decision_id": "D-01068", "viewer_id": "U-03125", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01069", "viewer_id": "U-04201", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01070", "viewer_id": "U-02300", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01071", "viewer_id": "U-03006", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01071", "viewer_id": "U-03006", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01072", "viewer_id": "U-00781", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01073", "viewer_id": "U-03418", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021648"], "window_hours": 168}
 {"decision_id": "D-01074", "viewer_id": "U-03554", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -1078,7 +1078,7 @@
 {"decision_id": "D-01078", "viewer_id": "U-04663", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01079", "viewer_id": "U-04663", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01080", "viewer_id": "U-04578", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-028828"], "window_hours": 168}
-{"decision_id": "D-01081", "viewer_id": "U-03091", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01081", "viewer_id": "U-03091", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01082", "viewer_id": "U-00412", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01083", "viewer_id": "U-01774", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01084", "viewer_id": "U-02616", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1089,7 +1089,7 @@
 {"decision_id": "D-01089", "viewer_id": "U-00601", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01090", "viewer_id": "U-02656", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01091", "viewer_id": "U-01712", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01092", "viewer_id": "U-02654", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01092", "viewer_id": "U-02654", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01093", "viewer_id": "U-02601", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01094", "viewer_id": "U-04940", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01095", "viewer_id": "U-04940", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -1097,10 +1097,10 @@
 {"decision_id": "D-01097", "viewer_id": "U-02779", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017517"], "window_hours": 168}
 {"decision_id": "D-01098", "viewer_id": "U-03553", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01099", "viewer_id": "U-00458", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-003131"], "window_hours": 168}
-{"decision_id": "D-01100", "viewer_id": "U-00284", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01100", "viewer_id": "U-00284", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01101", "viewer_id": "U-04932", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01102", "viewer_id": "U-01055", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007076"], "window_hours": 168}
-{"decision_id": "D-01103", "viewer_id": "U-01603", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01103", "viewer_id": "U-01603", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01104", "viewer_id": "U-03926", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025127"], "window_hours": 168}
 {"decision_id": "D-01105", "viewer_id": "U-01998", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01106", "viewer_id": "U-03709", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1113,14 +1113,14 @@
 {"decision_id": "D-01113", "viewer_id": "U-04016", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025683"], "window_hours": 168}
 {"decision_id": "D-01114", "viewer_id": "U-04080", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01115", "viewer_id": "U-01074", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01116", "viewer_id": "U-03602", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01116", "viewer_id": "U-03602", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01117", "viewer_id": "U-00167", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01118", "viewer_id": "U-00167", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01119", "viewer_id": "U-03180", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01120", "viewer_id": "U-03127", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019640"], "window_hours": 168}
 {"decision_id": "D-01121", "viewer_id": "U-01055", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007082"], "window_hours": 168}
 {"decision_id": "D-01122", "viewer_id": "U-01419", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01123", "viewer_id": "U-03602", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01123", "viewer_id": "U-03602", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01124", "viewer_id": "U-01924", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01125", "viewer_id": "U-01597", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010796"], "window_hours": 168}
 {"decision_id": "D-01126", "viewer_id": "U-04289", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1134,10 +1134,10 @@
 {"decision_id": "D-01134", "viewer_id": "U-03509", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01135", "viewer_id": "U-03011", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01136", "viewer_id": "U-02675", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01137", "viewer_id": "U-03643", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01137", "viewer_id": "U-03643", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01138", "viewer_id": "U-02431", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01139", "viewer_id": "U-01911", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01140", "viewer_id": "U-03544", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01140", "viewer_id": "U-03544", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01141", "viewer_id": "U-03100", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01142", "viewer_id": "U-03222", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020410"], "window_hours": 168}
 {"decision_id": "D-01143", "viewer_id": "U-00623", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1151,8 +1151,8 @@
 {"decision_id": "D-01151", "viewer_id": "U-00664", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-004313"], "window_hours": 168}
 {"decision_id": "D-01152", "viewer_id": "U-00934", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01153", "viewer_id": "U-01544", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
-{"decision_id": "D-01154", "viewer_id": "U-01092", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01155", "viewer_id": "U-01092", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01154", "viewer_id": "U-01092", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01155", "viewer_id": "U-01092", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01156", "viewer_id": "U-02861", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01157", "viewer_id": "U-04887", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["77768985-277c-4978-b863-349c73f636c2"], "window_hours": 168}
 {"decision_id": "D-01158", "viewer_id": "U-02095", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013751"], "window_hours": 168}
@@ -1210,9 +1210,9 @@
 {"decision_id": "D-01210", "viewer_id": "U-00504", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01211", "viewer_id": "U-00399", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01212", "viewer_id": "U-02080", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013690"], "window_hours": 168}
-{"decision_id": "D-01213", "viewer_id": "U-02551", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01213", "viewer_id": "U-02551", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01214", "viewer_id": "U-01084", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007192"], "window_hours": 168}
-{"decision_id": "D-01215", "viewer_id": "U-04945", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01215", "viewer_id": "U-04945", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01216", "viewer_id": "U-03239", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01217", "viewer_id": "U-03239", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01218", "viewer_id": "U-02007", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-013310"], "window_hours": 168}
@@ -1225,7 +1225,7 @@
 {"decision_id": "D-01225", "viewer_id": "U-03870", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01226", "viewer_id": "U-00958", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01227", "viewer_id": "U-02650", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01228", "viewer_id": "U-03645", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01228", "viewer_id": "U-03645", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01229", "viewer_id": "U-02650", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01230", "viewer_id": "U-01622", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010871"], "window_hours": 168}
 {"decision_id": "D-01231", "viewer_id": "U-04658", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029292"], "window_hours": 168}
@@ -1239,16 +1239,16 @@
 {"decision_id": "D-01239", "viewer_id": "U-01138", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01240", "viewer_id": "U-01712", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01241", "viewer_id": "U-00904", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01242", "viewer_id": "U-02217", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01242", "viewer_id": "U-02217", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01243", "viewer_id": "U-04059", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025985"], "window_hours": 168}
 {"decision_id": "D-01244", "viewer_id": "U-00068", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000443"], "window_hours": 168}
 {"decision_id": "D-01245", "viewer_id": "U-02120", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01246", "viewer_id": "U-04103", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01246", "viewer_id": "U-04103", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01247", "viewer_id": "U-04573", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028776"], "window_hours": 168}
-{"decision_id": "D-01248", "viewer_id": "U-00273", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01248", "viewer_id": "U-00273", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01249", "viewer_id": "U-00707", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004646"], "window_hours": 168}
 {"decision_id": "D-01250", "viewer_id": "U-00893", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005970"], "window_hours": 168}
-{"decision_id": "D-01251", "viewer_id": "U-01556", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01251", "viewer_id": "U-01556", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01252", "viewer_id": "U-02572", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016258"], "window_hours": 168}
 {"decision_id": "D-01253", "viewer_id": "U-00923", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006193"], "window_hours": 168}
 {"decision_id": "D-01254", "viewer_id": "U-04974", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1256,7 +1256,7 @@
 {"decision_id": "D-01256", "viewer_id": "U-00923", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006193"], "window_hours": 168}
 {"decision_id": "D-01257", "viewer_id": "U-04114", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026253"], "window_hours": 168}
 {"decision_id": "D-01258", "viewer_id": "U-04114", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026253"], "window_hours": 168}
-{"decision_id": "D-01259", "viewer_id": "U-01171", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01259", "viewer_id": "U-01171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01260", "viewer_id": "U-01406", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009538"], "window_hours": 168}
 {"decision_id": "D-01261", "viewer_id": "U-00908", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01262", "viewer_id": "U-00958", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -1294,9 +1294,9 @@
 {"decision_id": "D-01294", "viewer_id": "U-00664", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-004316"], "window_hours": 168}
 {"decision_id": "D-01295", "viewer_id": "U-03633", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01296", "viewer_id": "U-04915", "goal_id": "G02", "outcome": "succeeded", "evidence_events": ["oua-031086"], "window_hours": 72}
-{"decision_id": "D-01297", "viewer_id": "U-03482", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01297", "viewer_id": "U-03482", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01298", "viewer_id": "U-02441", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01299", "viewer_id": "U-02669", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01299", "viewer_id": "U-02669", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01300", "viewer_id": "U-03169", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019940"], "window_hours": 168}
 {"decision_id": "D-01301", "viewer_id": "U-00410", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01302", "viewer_id": "U-03169", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019940"], "window_hours": 168}
@@ -1308,8 +1308,8 @@
 {"decision_id": "D-01308", "viewer_id": "U-01443", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009949"], "window_hours": 168}
 {"decision_id": "D-01309", "viewer_id": "U-04556", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01310", "viewer_id": "U-03625", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023068"], "window_hours": 168}
-{"decision_id": "D-01311", "viewer_id": "U-01775", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01312", "viewer_id": "U-01775", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01311", "viewer_id": "U-01775", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01312", "viewer_id": "U-01775", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01313", "viewer_id": "U-01372", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01314", "viewer_id": "U-03051", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01315", "viewer_id": "U-03702", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -1674,7 +1674,7 @@
 {"decision_id": "D-01674", "viewer_id": "U-00745", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01675", "viewer_id": "U-02662", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01676", "viewer_id": "U-03592", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01677", "viewer_id": "U-01711", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01677", "viewer_id": "U-01711", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01678", "viewer_id": "U-00745", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01679", "viewer_id": "U-03546", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01680", "viewer_id": "U-03546", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -1709,7 +1709,7 @@
 {"decision_id": "D-01709", "viewer_id": "U-00151", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01710", "viewer_id": "U-04098", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026144"], "window_hours": 168}
 {"decision_id": "D-01711", "viewer_id": "U-00179", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01712", "viewer_id": "U-04178", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01712", "viewer_id": "U-04178", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01713", "viewer_id": "U-02888", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018147"], "window_hours": 168}
 {"decision_id": "D-01714", "viewer_id": "U-03016", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018894"], "window_hours": 168}
 {"decision_id": "D-01715", "viewer_id": "U-03886", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024900"], "window_hours": 168}
@@ -1720,8 +1720,8 @@
 {"decision_id": "D-01720", "viewer_id": "U-00652", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01721", "viewer_id": "U-04083", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01722", "viewer_id": "U-03038", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01723", "viewer_id": "U-03627", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01724", "viewer_id": "U-03627", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01723", "viewer_id": "U-03627", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01724", "viewer_id": "U-03627", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01725", "viewer_id": "U-04900", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-031007"], "window_hours": 168}
 {"decision_id": "D-01726", "viewer_id": "U-01528", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010380"], "window_hours": 168}
 {"decision_id": "D-01727", "viewer_id": "U-01528", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010380"], "window_hours": 168}
@@ -1737,7 +1737,7 @@
 {"decision_id": "D-01737", "viewer_id": "U-01876", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01738", "viewer_id": "U-01876", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01739", "viewer_id": "U-03826", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024519"], "window_hours": 168}
-{"decision_id": "D-01740", "viewer_id": "U-01040", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01740", "viewer_id": "U-01040", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01741", "viewer_id": "U-02071", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01742", "viewer_id": "U-03034", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01743", "viewer_id": "U-01697", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011290"], "window_hours": 168}
@@ -1751,10 +1751,10 @@
 {"decision_id": "D-01751", "viewer_id": "U-02002", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01752", "viewer_id": "U-02002", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01753", "viewer_id": "U-04888", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01754", "viewer_id": "U-02148", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01754", "viewer_id": "U-02148", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01755", "viewer_id": "U-01047", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01756", "viewer_id": "U-03866", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-01757", "viewer_id": "U-02148", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01757", "viewer_id": "U-02148", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01758", "viewer_id": "U-04810", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01759", "viewer_id": "U-01133", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01760", "viewer_id": "U-04004", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -1763,7 +1763,7 @@
 {"decision_id": "D-01763", "viewer_id": "U-00854", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005725"], "window_hours": 168}
 {"decision_id": "D-01764", "viewer_id": "U-02129", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01765", "viewer_id": "U-01775", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01766", "viewer_id": "U-03148", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01766", "viewer_id": "U-03148", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01767", "viewer_id": "U-01682", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011217"], "window_hours": 168}
 {"decision_id": "D-01768", "viewer_id": "U-03619", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023023"], "window_hours": 168}
 {"decision_id": "D-01769", "viewer_id": "U-04563", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -1773,10 +1773,10 @@
 {"decision_id": "D-01773", "viewer_id": "U-04059", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025985"], "window_hours": 168}
 {"decision_id": "D-01774", "viewer_id": "U-00677", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01775", "viewer_id": "U-00372", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
-{"decision_id": "D-01776", "viewer_id": "U-02595", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01776", "viewer_id": "U-02595", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01777", "viewer_id": "U-02045", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013401"], "window_hours": 168}
 {"decision_id": "D-01778", "viewer_id": "U-02456", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01779", "viewer_id": "U-00986", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01779", "viewer_id": "U-00986", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01780", "viewer_id": "U-04004", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01781", "viewer_id": "U-01453", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01782", "viewer_id": "U-04939", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -1799,7 +1799,7 @@
 {"decision_id": "D-01799", "viewer_id": "U-01356", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01800", "viewer_id": "U-01274", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01801", "viewer_id": "U-02595", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01802", "viewer_id": "U-04542", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01802", "viewer_id": "U-04542", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01803", "viewer_id": "U-00429", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-002935"], "window_hours": 168}
 {"decision_id": "D-01804", "viewer_id": "U-03031", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01805", "viewer_id": "U-03031", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1832,7 +1832,7 @@
 {"decision_id": "D-01832", "viewer_id": "U-01789", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01833", "viewer_id": "U-04087", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01834", "viewer_id": "U-00208", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01835", "viewer_id": "U-02898", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01835", "viewer_id": "U-02898", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01836", "viewer_id": "U-02400", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["b2ded1ec-ea70-4977-99f5-5c0421b933c0"], "window_hours": 168}
 {"decision_id": "D-01837", "viewer_id": "U-00821", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01838", "viewer_id": "U-01412", "goal_id": "G07", "outcome": "succeeded", "evidence_events": ["oua-009575"], "window_hours": 72}
@@ -1880,19 +1880,19 @@
 {"decision_id": "D-01880", "viewer_id": "U-01739", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011642"], "window_hours": 168}
 {"decision_id": "D-01881", "viewer_id": "U-00364", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01882", "viewer_id": "U-01327", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01883", "viewer_id": "U-02914", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01883", "viewer_id": "U-02914", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01884", "viewer_id": "U-03610", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-022928"], "window_hours": 168}
 {"decision_id": "D-01885", "viewer_id": "U-02472", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01886", "viewer_id": "U-03254", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01887", "viewer_id": "U-02117", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013889"], "window_hours": 168}
 {"decision_id": "D-01888", "viewer_id": "U-01590", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01889", "viewer_id": "U-04793", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01890", "viewer_id": "U-00312", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01890", "viewer_id": "U-00312", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01891", "viewer_id": "U-00796", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005410"], "window_hours": 168}
 {"decision_id": "D-01892", "viewer_id": "U-03038", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01893", "viewer_id": "U-00796", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005410"], "window_hours": 168}
-{"decision_id": "D-01894", "viewer_id": "U-02332", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01895", "viewer_id": "U-02332", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01894", "viewer_id": "U-02332", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01895", "viewer_id": "U-02332", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01896", "viewer_id": "U-02992", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01897", "viewer_id": "U-01118", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01898", "viewer_id": "U-04578", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -1907,12 +1907,12 @@
 {"decision_id": "D-01907", "viewer_id": "U-01399", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01908", "viewer_id": "U-04892", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01909", "viewer_id": "U-02167", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01910", "viewer_id": "U-02160", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01911", "viewer_id": "U-01092", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01912", "viewer_id": "U-01092", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01910", "viewer_id": "U-02160", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01911", "viewer_id": "U-01092", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01912", "viewer_id": "U-01092", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01913", "viewer_id": "U-01869", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01914", "viewer_id": "U-01869", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
-{"decision_id": "D-01915", "viewer_id": "U-03894", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01915", "viewer_id": "U-03894", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01916", "viewer_id": "U-00199", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01917", "viewer_id": "U-01373", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01918", "viewer_id": "U-04642", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1924,7 +1924,7 @@
 {"decision_id": "D-01924", "viewer_id": "U-03826", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024527"], "window_hours": 168}
 {"decision_id": "D-01925", "viewer_id": "U-02271", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01926", "viewer_id": "U-01325", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01927", "viewer_id": "U-03690", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01927", "viewer_id": "U-03690", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01928", "viewer_id": "U-04236", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01929", "viewer_id": "U-04236", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01930", "viewer_id": "U-03211", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
@@ -1945,9 +1945,9 @@
 {"decision_id": "D-01945", "viewer_id": "U-01189", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01946", "viewer_id": "U-00609", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01947", "viewer_id": "U-01015", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-006859"], "window_hours": 168}
-{"decision_id": "D-01948", "viewer_id": "U-02290", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01948", "viewer_id": "U-02290", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01949", "viewer_id": "U-04778", "goal_id": "G01", "outcome": "succeeded", "evidence_events": ["oua-030035"], "window_hours": 24}
-{"decision_id": "D-01950", "viewer_id": "U-00667", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01950", "viewer_id": "U-00667", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01951", "viewer_id": "U-00434", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01952", "viewer_id": "U-00695", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01953", "viewer_id": "U-01756", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011775"], "window_hours": 168}
@@ -1955,7 +1955,7 @@
 {"decision_id": "D-01955", "viewer_id": "U-01270", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01956", "viewer_id": "U-01270", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-01957", "viewer_id": "U-03562", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022672"], "window_hours": 168}
-{"decision_id": "D-01958", "viewer_id": "U-02061", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01958", "viewer_id": "U-02061", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01959", "viewer_id": "U-03415", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01960", "viewer_id": "U-02732", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017312"], "window_hours": 168}
 {"decision_id": "D-01961", "viewer_id": "U-04929", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -1963,29 +1963,29 @@
 {"decision_id": "D-01963", "viewer_id": "U-00609", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01964", "viewer_id": "U-00245", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-01965", "viewer_id": "U-00245", "goal_id": "G06", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01966", "viewer_id": "U-04103", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01966", "viewer_id": "U-04103", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01967", "viewer_id": "U-03875", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01968", "viewer_id": "U-04790", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030203"], "window_hours": 168}
-{"decision_id": "D-01969", "viewer_id": "U-03339", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01970", "viewer_id": "U-03339", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01969", "viewer_id": "U-03339", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01970", "viewer_id": "U-03339", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01971", "viewer_id": "U-00229", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01972", "viewer_id": "U-01580", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010743"], "window_hours": 168}
 {"decision_id": "D-01973", "viewer_id": "U-02383", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015302"], "window_hours": 168}
 {"decision_id": "D-01974", "viewer_id": "U-00917", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01975", "viewer_id": "U-00398", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
-{"decision_id": "D-01976", "viewer_id": "U-02006", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01976", "viewer_id": "U-02006", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01977", "viewer_id": "U-02459", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015626"], "window_hours": 168}
 {"decision_id": "D-01978", "viewer_id": "U-02202", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-014378"], "window_hours": 168}
 {"decision_id": "D-01979", "viewer_id": "U-00884", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01980", "viewer_id": "U-02707", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01981", "viewer_id": "U-00176", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01982", "viewer_id": "U-04503", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-01983", "viewer_id": "U-02902", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01982", "viewer_id": "U-04503", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-01983", "viewer_id": "U-02902", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01984", "viewer_id": "U-00218", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01985", "viewer_id": "U-03459", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-01986", "viewer_id": "U-03016", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018894"], "window_hours": 168}
 {"decision_id": "D-01987", "viewer_id": "U-04439", "goal_id": "G08", "outcome": "succeeded", "evidence_events": ["oua-028059"], "window_hours": 168}
-{"decision_id": "D-01988", "viewer_id": "U-04002", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01988", "viewer_id": "U-04002", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01989", "viewer_id": "U-04002", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01990", "viewer_id": "U-00035", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-01991", "viewer_id": "U-03328", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -1993,7 +1993,7 @@
 {"decision_id": "D-01993", "viewer_id": "U-00501", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003485"], "window_hours": 168}
 {"decision_id": "D-01994", "viewer_id": "U-01825", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012406"], "window_hours": 168}
 {"decision_id": "D-01995", "viewer_id": "U-01825", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012406"], "window_hours": 168}
-{"decision_id": "D-01996", "viewer_id": "U-03339", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-01996", "viewer_id": "U-03339", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-01997", "viewer_id": "U-01572", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010685"], "window_hours": 168}
 {"decision_id": "D-01998", "viewer_id": "U-03173", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-01999", "viewer_id": "U-00879", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -2017,7 +2017,7 @@
 {"decision_id": "D-02017", "viewer_id": "U-03496", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02018", "viewer_id": "U-01048", "goal_id": "G09", "outcome": "succeeded", "evidence_events": ["oua-007058", "oua-007068", "oua-007072"], "window_hours": 336}
 {"decision_id": "D-02019", "viewer_id": "U-04622", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02020", "viewer_id": "U-00104", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02020", "viewer_id": "U-00104", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02021", "viewer_id": "U-00251", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001779"], "window_hours": 168}
 {"decision_id": "D-02022", "viewer_id": "U-02318", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014977"], "window_hours": 168}
 {"decision_id": "D-02023", "viewer_id": "U-04842", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030589"], "window_hours": 168}
@@ -2074,7 +2074,7 @@
 {"decision_id": "D-02074", "viewer_id": "U-00343", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02075", "viewer_id": "U-03267", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02076", "viewer_id": "U-02817", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-017772"], "window_hours": 168}
-{"decision_id": "D-02077", "viewer_id": "U-01171", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02077", "viewer_id": "U-01171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02078", "viewer_id": "U-00069", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-000468"], "window_hours": 168}
 {"decision_id": "D-02079", "viewer_id": "U-00247", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001741"], "window_hours": 168}
 {"decision_id": "D-02080", "viewer_id": "U-03656", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-023427"], "window_hours": 168}
@@ -2095,11 +2095,11 @@
 {"decision_id": "D-02095", "viewer_id": "U-01966", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013060"], "window_hours": 168}
 {"decision_id": "D-02096", "viewer_id": "U-01103", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["ac87956d-a701-4386-9b3e-02518b9dcd09"], "window_hours": 168}
 {"decision_id": "D-02097", "viewer_id": "U-01339", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-008965"], "window_hours": 168}
-{"decision_id": "D-02098", "viewer_id": "U-01556", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02098", "viewer_id": "U-01556", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02099", "viewer_id": "U-01216", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02100", "viewer_id": "U-03567", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02101", "viewer_id": "U-03933", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025182"], "window_hours": 168}
-{"decision_id": "D-02102", "viewer_id": "U-02934", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02102", "viewer_id": "U-02934", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02103", "viewer_id": "U-02670", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-016724"], "window_hours": 168}
 {"decision_id": "D-02104", "viewer_id": "U-01576", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02105", "viewer_id": "U-03358", "goal_id": "G01", "outcome": "succeeded", "evidence_events": ["oua-021284"], "window_hours": 24}
@@ -2132,7 +2132,7 @@
 {"decision_id": "D-02132", "viewer_id": "U-01270", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-02133", "viewer_id": "U-04462", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028191"], "window_hours": 168}
 {"decision_id": "D-02134", "viewer_id": "U-04850", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030638"], "window_hours": 168}
-{"decision_id": "D-02135", "viewer_id": "U-00475", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02135", "viewer_id": "U-00475", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02136", "viewer_id": "U-04850", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-030638"], "window_hours": 168}
 {"decision_id": "D-02137", "viewer_id": "U-03250", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020627"], "window_hours": 168}
 {"decision_id": "D-02138", "viewer_id": "U-00474", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2146,7 +2146,7 @@
 {"decision_id": "D-02146", "viewer_id": "U-00182", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02147", "viewer_id": "U-04854", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02148", "viewer_id": "U-01652", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02149", "viewer_id": "U-00023", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02149", "viewer_id": "U-00023", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02150", "viewer_id": "U-02231", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-014528"], "window_hours": 168}
 {"decision_id": "D-02151", "viewer_id": "U-03806", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02152", "viewer_id": "U-00211", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2154,7 +2154,7 @@
 {"decision_id": "D-02154", "viewer_id": "U-03126", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02155", "viewer_id": "U-00805", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-02156", "viewer_id": "U-03715", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02157", "viewer_id": "U-02101", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02157", "viewer_id": "U-02101", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02158", "viewer_id": "U-03039", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02159", "viewer_id": "U-04011", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02160", "viewer_id": "U-01237", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -2181,7 +2181,7 @@
 {"decision_id": "D-02181", "viewer_id": "U-03024", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02182", "viewer_id": "U-01242", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-008329"], "window_hours": 168}
 {"decision_id": "D-02183", "viewer_id": "U-03480", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02184", "viewer_id": "U-02573", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02184", "viewer_id": "U-02573", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02185", "viewer_id": "U-03503", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022221"], "window_hours": 168}
 {"decision_id": "D-02186", "viewer_id": "U-01219", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02187", "viewer_id": "U-00530", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2193,7 +2193,7 @@
 {"decision_id": "D-02193", "viewer_id": "U-00212", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-02194", "viewer_id": "U-02344", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02195", "viewer_id": "U-02930", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-018406"], "window_hours": 168}
-{"decision_id": "D-02196", "viewer_id": "U-02081", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02196", "viewer_id": "U-02081", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02197", "viewer_id": "U-01249", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02198", "viewer_id": "U-03467", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02199", "viewer_id": "U-01373", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2206,7 +2206,7 @@
 {"decision_id": "D-02206", "viewer_id": "U-03839", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02207", "viewer_id": "U-04642", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
 {"decision_id": "D-02208", "viewer_id": "U-04138", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-026368"], "window_hours": 168}
-{"decision_id": "D-02209", "viewer_id": "U-03339", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02209", "viewer_id": "U-03339", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02210", "viewer_id": "U-04472", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02211", "viewer_id": "U-01219", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02212", "viewer_id": "U-01406", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2219,7 +2219,7 @@
 {"decision_id": "D-02219", "viewer_id": "U-04833", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-02220", "viewer_id": "U-04033", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025799"], "window_hours": 168}
 {"decision_id": "D-02221", "viewer_id": "U-04709", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02222", "viewer_id": "U-02101", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02222", "viewer_id": "U-02101", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02223", "viewer_id": "U-02791", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02224", "viewer_id": "U-03664", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02225", "viewer_id": "U-03664", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2265,12 +2265,12 @@
 {"decision_id": "D-02265", "viewer_id": "U-04881", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02266", "viewer_id": "U-04881", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02267", "viewer_id": "U-00050", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02268", "viewer_id": "U-02934", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02268", "viewer_id": "U-02934", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02269", "viewer_id": "U-01382", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02270", "viewer_id": "U-02573", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02270", "viewer_id": "U-02573", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02271", "viewer_id": "U-00190", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001254"], "window_hours": 168}
 {"decision_id": "D-02272", "viewer_id": "U-03845", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02273", "viewer_id": "U-01365", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02273", "viewer_id": "U-01365", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02274", "viewer_id": "U-01363", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02275", "viewer_id": "U-01948", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02276", "viewer_id": "U-03192", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020212"], "window_hours": 168}
@@ -2303,8 +2303,8 @@
 {"decision_id": "D-02303", "viewer_id": "U-03100", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02304", "viewer_id": "U-04034", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02305", "viewer_id": "U-02929", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02306", "viewer_id": "U-00284", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02307", "viewer_id": "U-03240", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02306", "viewer_id": "U-00284", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02307", "viewer_id": "U-03240", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02308", "viewer_id": "U-00187", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001216"], "window_hours": 168}
 {"decision_id": "D-02309", "viewer_id": "U-00181", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-001153"], "window_hours": 168}
 {"decision_id": "D-02310", "viewer_id": "U-01829", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012490"], "window_hours": 168}
@@ -2348,7 +2348,7 @@
 {"decision_id": "D-02348", "viewer_id": "U-04377", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02349", "viewer_id": "U-00300", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02350", "viewer_id": "U-03032", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02351", "viewer_id": "U-01030", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02351", "viewer_id": "U-01030", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02352", "viewer_id": "U-02298", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02353", "viewer_id": "U-01716", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011400"], "window_hours": 168}
 {"decision_id": "D-02354", "viewer_id": "U-02557", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2360,7 +2360,7 @@
 {"decision_id": "D-02360", "viewer_id": "U-01829", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012490"], "window_hours": 168}
 {"decision_id": "D-02361", "viewer_id": "U-02563", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02362", "viewer_id": "U-02034", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013378"], "window_hours": 168}
-{"decision_id": "D-02363", "viewer_id": "U-01236", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02363", "viewer_id": "U-01236", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02364", "viewer_id": "U-03868", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02365", "viewer_id": "U-00739", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004865"], "window_hours": 168}
 {"decision_id": "D-02366", "viewer_id": "U-02051", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-013433"], "window_hours": 168}
@@ -2375,7 +2375,7 @@
 {"decision_id": "D-02375", "viewer_id": "U-03893", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["oua-024957"], "window_hours": 168}
 {"decision_id": "D-02376", "viewer_id": "U-04556", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02377", "viewer_id": "U-03622", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02378", "viewer_id": "U-02443", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02378", "viewer_id": "U-02443", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02379", "viewer_id": "U-03644", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02380", "viewer_id": "U-04555", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-028672"], "window_hours": 168}
 {"decision_id": "D-02381", "viewer_id": "U-01181", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2420,7 +2420,7 @@
 {"decision_id": "D-02420", "viewer_id": "U-01777", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02421", "viewer_id": "U-01777", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02422", "viewer_id": "U-00073", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000516"], "window_hours": 168}
-{"decision_id": "D-02423", "viewer_id": "U-04178", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02423", "viewer_id": "U-04178", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02424", "viewer_id": "U-01425", "goal_id": "G09", "outcome": "failed", "evidence_events": [], "window_hours": 336}
 {"decision_id": "D-02425", "viewer_id": "U-01745", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02426", "viewer_id": "U-03982", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2444,7 +2444,7 @@
 {"decision_id": "D-02444", "viewer_id": "U-01800", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02445", "viewer_id": "U-02917", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02446", "viewer_id": "U-01358", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009161"], "window_hours": 168}
-{"decision_id": "D-02447", "viewer_id": "U-03404", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02447", "viewer_id": "U-03404", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02448", "viewer_id": "U-00731", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004829"], "window_hours": 168}
 {"decision_id": "D-02449", "viewer_id": "U-01322", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
 {"decision_id": "D-02450", "viewer_id": "U-00724", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2455,11 +2455,11 @@
 {"decision_id": "D-02455", "viewer_id": "U-00464", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003221"], "window_hours": 168}
 {"decision_id": "D-02456", "viewer_id": "U-00948", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02457", "viewer_id": "U-01541", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-010456"], "window_hours": 168}
-{"decision_id": "D-02458", "viewer_id": "U-04744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02458", "viewer_id": "U-04744", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02459", "viewer_id": "U-01362", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-009216"], "window_hours": 168}
 {"decision_id": "D-02460", "viewer_id": "U-00965", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02461", "viewer_id": "U-03075", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-019375"], "window_hours": 168}
-{"decision_id": "D-02462", "viewer_id": "U-01604", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02462", "viewer_id": "U-01604", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02463", "viewer_id": "U-03418", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021657"], "window_hours": 168}
 {"decision_id": "D-02464", "viewer_id": "U-03276", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020794"], "window_hours": 168}
 {"decision_id": "D-02465", "viewer_id": "U-03460", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -2479,11 +2479,11 @@
 {"decision_id": "D-02479", "viewer_id": "U-03982", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02480", "viewer_id": "U-02409", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015416"], "window_hours": 168}
 {"decision_id": "D-02481", "viewer_id": "U-02409", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-015416"], "window_hours": 168}
-{"decision_id": "D-02482", "viewer_id": "U-02943", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02482", "viewer_id": "U-02943", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02483", "viewer_id": "U-00615", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004013"], "window_hours": 168}
 {"decision_id": "D-02484", "viewer_id": "U-01460", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02485", "viewer_id": "U-03623", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02486", "viewer_id": "U-04744", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02486", "viewer_id": "U-04744", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02487", "viewer_id": "U-02357", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02488", "viewer_id": "U-03753", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02489", "viewer_id": "U-01948", "goal_id": "G12", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -2500,7 +2500,7 @@
 {"decision_id": "D-02500", "viewer_id": "U-01718", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011490"], "window_hours": 168}
 {"decision_id": "D-02501", "viewer_id": "U-04937", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02502", "viewer_id": "U-01630", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02503", "viewer_id": "U-04250", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02503", "viewer_id": "U-04250", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02504", "viewer_id": "U-01630", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02505", "viewer_id": "U-04770", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029964"], "window_hours": 168}
 {"decision_id": "D-02506", "viewer_id": "U-04770", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029964"], "window_hours": 168}
@@ -2517,7 +2517,7 @@
 {"decision_id": "D-02517", "viewer_id": "U-03908", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025033"], "window_hours": 168}
 {"decision_id": "D-02518", "viewer_id": "U-02202", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-014378"], "window_hours": 168}
 {"decision_id": "D-02519", "viewer_id": "U-02202", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-014378"], "window_hours": 168}
-{"decision_id": "D-02520", "viewer_id": "U-00284", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02520", "viewer_id": "U-00284", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02521", "viewer_id": "U-01273", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02522", "viewer_id": "U-00615", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-004013"], "window_hours": 168}
 {"decision_id": "D-02523", "viewer_id": "U-00584", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2533,10 +2533,10 @@
 {"decision_id": "D-02533", "viewer_id": "U-01779", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02534", "viewer_id": "U-03897", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024996"], "window_hours": 168}
 {"decision_id": "D-02535", "viewer_id": "U-04814", "goal_id": "G12", "outcome": "succeeded", "evidence_events": ["oua-030358"], "window_hours": 168}
-{"decision_id": "D-02536", "viewer_id": "U-04542", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02537", "viewer_id": "U-02705", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02538", "viewer_id": "U-03091", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02539", "viewer_id": "U-02812", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02536", "viewer_id": "U-04542", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02537", "viewer_id": "U-02705", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02538", "viewer_id": "U-03091", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02539", "viewer_id": "U-02812", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02540", "viewer_id": "U-04988", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02541", "viewer_id": "U-04988", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02542", "viewer_id": "U-04122", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
@@ -2573,14 +2573,14 @@
 {"decision_id": "D-02573", "viewer_id": "U-04925", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02574", "viewer_id": "U-01166", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-007778"], "window_hours": 168}
 {"decision_id": "D-02575", "viewer_id": "U-00958", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02576", "viewer_id": "U-00959", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02576", "viewer_id": "U-00959", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02577", "viewer_id": "U-02358", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02578", "viewer_id": "U-00818", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005511"], "window_hours": 168}
 {"decision_id": "D-02579", "viewer_id": "U-00116", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02580", "viewer_id": "U-01769", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02581", "viewer_id": "U-00860", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005774"], "window_hours": 168}
 {"decision_id": "D-02582", "viewer_id": "U-00116", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02583", "viewer_id": "U-01407", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02583", "viewer_id": "U-01407", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02584", "viewer_id": "U-02814", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02585", "viewer_id": "U-02574", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02586", "viewer_id": "U-02814", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2591,11 +2591,11 @@
 {"decision_id": "D-02591", "viewer_id": "U-03418", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-021657"], "window_hours": 168}
 {"decision_id": "D-02592", "viewer_id": "U-03998", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025575"], "window_hours": 168}
 {"decision_id": "D-02593", "viewer_id": "U-00497", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-003427"], "window_hours": 168}
-{"decision_id": "D-02594", "viewer_id": "U-01559", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02594", "viewer_id": "U-01559", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02595", "viewer_id": "U-01756", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011783"], "window_hours": 168}
 {"decision_id": "D-02596", "viewer_id": "U-01569", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02597", "viewer_id": "U-04968", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
-{"decision_id": "D-02598", "viewer_id": "U-03645", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02598", "viewer_id": "U-03645", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02599", "viewer_id": "U-00029", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-000199"], "window_hours": 168}
 {"decision_id": "D-02600", "viewer_id": "U-03578", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02601", "viewer_id": "U-03514", "goal_id": "G10", "outcome": "unverifiable", "evidence_events": [], "window_hours": null, "note": "success_event=null in goals.json"}
@@ -2618,8 +2618,8 @@
 {"decision_id": "D-02618", "viewer_id": "U-04673", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02619", "viewer_id": "U-03496", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02620", "viewer_id": "U-04907", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02621", "viewer_id": "U-02148", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02622", "viewer_id": "U-04587", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02621", "viewer_id": "U-02148", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02622", "viewer_id": "U-04587", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02623", "viewer_id": "U-00996", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02624", "viewer_id": "U-01743", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-011673"], "window_hours": 168}
 {"decision_id": "D-02625", "viewer_id": "U-02676", "goal_id": "G01", "outcome": "failed", "evidence_events": [], "window_hours": 24}
@@ -2662,12 +2662,12 @@
 {"decision_id": "D-02662", "viewer_id": "U-01285", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_purchase", "evidence_events": ["6b163fd4-f502-4159-bc7b-967288443d98"], "window_hours": 168}
 {"decision_id": "D-02663", "viewer_id": "U-02850", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02664", "viewer_id": "U-02671", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02665", "viewer_id": "U-01171", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
-{"decision_id": "D-02666", "viewer_id": "U-01171", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02665", "viewer_id": "U-01171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
+{"decision_id": "D-02666", "viewer_id": "U-01171", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02667", "viewer_id": "U-03145", "goal_id": "G05", "outcome": "failed", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02668", "viewer_id": "U-04356", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02669", "viewer_id": "U-00785", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-005324"], "window_hours": 168}
-{"decision_id": "D-02670", "viewer_id": "U-02669", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02670", "viewer_id": "U-02669", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02671", "viewer_id": "U-00388", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02672", "viewer_id": "U-03946", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-025266"], "window_hours": 168}
 {"decision_id": "D-02673", "viewer_id": "U-02395", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
@@ -2689,7 +2689,7 @@
 {"decision_id": "D-02689", "viewer_id": "U-03982", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02690", "viewer_id": "U-04916", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-031114"], "window_hours": 168}
 {"decision_id": "D-02691", "viewer_id": "U-04916", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-031114"], "window_hours": 168}
-{"decision_id": "D-02692", "viewer_id": "U-03850", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02692", "viewer_id": "U-03850", "goal_id": null, "outcome": "no_goal", "evidence_events": [], "window_hours": null}
 {"decision_id": "D-02693", "viewer_id": "U-03485", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-022095"], "window_hours": 168}
 {"decision_id": "D-02694", "viewer_id": "U-01029", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
 {"decision_id": "D-02695", "viewer_id": "U-03807", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_no_conversion", "evidence_events": [], "window_hours": 168}
@@ -2758,7 +2758,7 @@
 {"decision_id": "D-02758", "viewer_id": "U-04682", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-029369"], "window_hours": 168}
 {"decision_id": "D-02759", "viewer_id": "U-03787", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-024347"], "window_hours": 168}
 {"decision_id": "D-02760", "viewer_id": "U-01790", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-012070"], "window_hours": 168}
-{"decision_id": "D-02761", "viewer_id": "U-02511", "goal_id": "G07", "outcome": "failed", "evidence_events": [], "window_hours": 72}
+{"decision_id": "D-02761", "viewer_id": "U-02511", "goal_id": "G07", "outcome": "inconclusive", "evidence_events": [], "window_hours": 72}
 {"decision_id": "D-02762", "viewer_id": "U-03255", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020657"], "window_hours": 168}
 {"decision_id": "D-02763", "viewer_id": "U-03255", "goal_id": null, "outcome": "holdout", "holdout_organic": "holdout_organic_play", "evidence_events": ["oua-020657"], "window_hours": 168}
 {"decision_id": "D-02764", "viewer_id": "U-04404", "goal_id": "G02", "outcome": "failed", "evidence_events": [], "window_hours": 72}

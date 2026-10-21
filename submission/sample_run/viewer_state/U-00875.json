@@ -1,25 +1,15 @@
 {
   "user_id": "U-00875",
-  "current_goal": {
-    "id": "G07",
-    "name": "resume_series_3d",
-    "deadline": "2026-10-04T04:47:58.007000Z",
-    "window_hours": 72
-  },
+  "current_goal": null,
   "last_decision_id": "D-00586",
   "last_decision_at": "2026-10-01T04:47:58.007Z",
   "decision_history": [
     {
       "decision_id": "D-00586",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T04:47:58.007000Z",
-        "window_hours": 72
-      },
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T04:47:58.007Z",
-      "status": "ok"
+      "status": "no_action"
     }
   ]
 }

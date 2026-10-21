@@ -11,15 +11,10 @@
   "decision_history": [
     {
       "decision_id": "D-00400",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T04:45:26.579000Z",
-        "window_hours": 72
-      },
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T04:45:26.579Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-01862",

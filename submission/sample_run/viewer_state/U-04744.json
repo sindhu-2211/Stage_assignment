@@ -1,73 +1,43 @@
 {
   "user_id": "U-04744",
-  "current_goal": {
-    "id": "G07",
-    "name": "resume_series_3d",
-    "deadline": "2026-10-04T16:32:38.164000Z",
-    "window_hours": 72
-  },
+  "current_goal": null,
   "last_decision_id": "D-02486",
   "last_decision_at": "2026-10-01T16:32:38.164Z",
   "decision_history": [
     {
       "decision_id": "D-00254",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T03:34:19.887000Z",
-        "window_hours": 72
-      },
-      "action_type": "push",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T03:34:19.887Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-00330",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T04:28:51.111000Z",
-        "window_hours": 72
-      },
-      "action_type": "in_app_message",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T04:28:51.111Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-00333",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T04:30:19.524000Z",
-        "window_hours": 72
-      },
-      "action_type": "in_app_message",
+      "goal": null,
+      "action_type": "no_action",
       "deliver_at": "2026-10-01T04:30:19.524Z",
-      "status": "ok"
+      "status": "no_action"
     },
     {
       "decision_id": "D-02458",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T16:26:55.717000Z",
-        "window_hours": 72
-      },
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T16:26:55.717Z",
-      "status": "downgraded"
+      "status": "no_action"
     },
     {
       "decision_id": "D-02486",
-      "goal": {
-        "id": "G07",
-        "name": "resume_series_3d",
-        "deadline": "2026-10-04T16:32:38.164000Z",
-        "window_hours": 72
-      },
+      "goal": null,
       "action_type": "no_action",
       "deliver_at": "2026-10-01T16:32:38.164Z",
-      "status": "downgraded"
+      "status": "no_action"
     }
   ]
 }
