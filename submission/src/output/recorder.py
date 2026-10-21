@@ -179,13 +179,15 @@ def _update_viewer_state(brief: ViewerBrief, decision: dict, state_dir: Path) ->
     state["last_decision_at"] = decision["deliver_at"]
 
     history = state.get("decision_history", [])
-    history.append({
-        "decision_id": decision["decision_id"],
-        "goal": decision["goal"],
-        "action_type": decision["action"]["type"],
-        "deliver_at": decision["deliver_at"],
-        "status": decision["status"],
-    })
+    existing_ids = {e.get("decision_id") for e in history}
+    if decision["decision_id"] not in existing_ids:
+        history.append({
+            "decision_id": decision["decision_id"],
+            "goal": decision["goal"],
+            "action_type": decision["action"]["type"],
+            "deliver_at": decision["deliver_at"],
+            "status": decision["status"],
+        })
     state["decision_history"] = history[-10:]  # keep last 10
 
     state_path.write_text(json.dumps(state, indent=2, ensure_ascii=False))
