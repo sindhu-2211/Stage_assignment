@@ -14,7 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from src.config import AgentConfig
-from src.measurement.outcome_judge import judge_outcomes
+from src.measurement.outcome_judge import judge_outcomes, compute_holdout_per_goal_organic
 from src.measurement.impact_report import generate_impact_report
 
 
@@ -51,8 +51,16 @@ def main():
                 f.write(json.dumps(o, ensure_ascii=False) + "\n")
         print(f"  Written: {outcomes_path}")
 
+    print("Computing per-goal holdout lift...")
+    holdout_by_goal = {}
+    if outcome_events_path.exists():
+        holdout_by_goal = compute_holdout_per_goal_organic(
+            decisions_path, outcome_events_path, config.goals
+        )
+        print(f"  Goals with holdout organic data: {len(holdout_by_goal)}")
+
     print("Generating impact report...")
-    summary = generate_impact_report(outcomes, config.arms, impact_path)
+    summary = generate_impact_report(outcomes, config.arms, impact_path, holdout_by_goal)
     print(f"  Written: {impact_path}")
 
     print("Generating latency report...")
