@@ -229,3 +229,49 @@ def test_goal_rule_correction_applies_to_subsequent_triggers():
         f"Expected play_started, got {ls.goals['G03']['success']['event']}"
     )
     assert ls.goals["G03"]["success"].get("condition") == "on a later IST calendar day"
+
+
+# ── Test 5: Frequency cap not bypassed when send_at is shifted to next IST day ──
+
+def test_frequency_cap_not_bypassed_by_quiet_hours_adjustment():
+    """
+    Viewer triggers at 22:10 IST (16:40 UTC). Agent issues a push; quiet-hours
+    adjustment sets send_at to next-day 08:00 IST (02:30 UTC next day). The
+    action's published_at stays on the original IST day.
+
+    Second trigger at 22:45 IST the same IST day.
+    assembler must count messages_sent_today == 1, triggering the frequency cap.
+
+    This would be 0 (cap bypassed) if the assembler used send_at instead of published_at.
+    """
+    from src.stage1.conflict import to_ist_date
+
+    # IST date of both triggers: 2026-10-01
+    first_published_at = "2026-10-01T17:10:00Z"   # 22:40 IST Oct 1
+    first_send_at      = "2026-10-02T02:30:00Z"   # 08:00 IST Oct 2 (quiet-hours adjusted)
+    second_deliver_at  = "2026-10-01T17:15:00Z"   # 22:45 IST Oct 1
+
+    today_actions = [
+        {
+            "user_id": "U-TEST",
+            "type": "push",
+            "published_at": first_published_at,
+            "send_at": first_send_at,
+        }
+    ]
+
+    deliver_ist_date = str(to_ist_date(second_deliver_at))
+    messages_today = 0
+    for action in today_actions:
+        if action.get("user_id") != "U-TEST":
+            continue
+        if action.get("type") not in ("push", "whatsapp"):
+            continue
+        pub_at = action.get("published_at", "")
+        if pub_at and str(to_ist_date(pub_at)) == deliver_ist_date:
+            messages_today += 1
+
+    assert messages_today == 1, (
+        f"Expected 1 message counted today (using published_at), got {messages_today}. "
+        "Frequency cap was likely using send_at (shifted to next IST day)."
+    )

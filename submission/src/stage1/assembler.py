@@ -126,8 +126,8 @@ def assemble(
             continue
         if action.get("type") not in ("push", "whatsapp"):
             continue
-        send_at = action.get("send_at") or action.get("published_at", "")
-        if send_at and str(to_ist_date(send_at)) == deliver_ist_date:
+        pub_at = action.get("published_at", "")
+        if pub_at and str(to_ist_date(pub_at)) == deliver_ist_date:
             messages_today += 1
 
     # Step 9: platform + signup_at from profile/events
