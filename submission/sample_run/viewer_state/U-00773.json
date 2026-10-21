@@ -1,0 +1,78 @@
+{
+  "user_id": "U-00773",
+  "current_goal": null,
+  "last_decision_id": "D-01487",
+  "last_decision_at": "2026-10-01T11:52:57.849Z",
+  "decision_history": [
+    {
+      "decision_id": "D-00712",
+      "goal": "G07",
+      "action_type": "push",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "ok"
+    },
+    {
+      "decision_id": "D-00712",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01487",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T11:52:57.849Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-00712",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01487",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T11:52:57.849Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-00741",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01516",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T11:52:57.849Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-00712",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-00965",
+      "goal": "G07",
+      "action_type": "push",
+      "deliver_at": "2026-10-01T05:47:53.641Z",
+      "status": "ok"
+    },
+    {
+      "decision_id": "D-01487",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T11:52:57.849Z",
+      "status": "no_action"
+    }
+  ]
+}

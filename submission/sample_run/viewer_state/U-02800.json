@@ -1,0 +1,71 @@
+{
+  "user_id": "U-02800",
+  "current_goal": "G07",
+  "last_decision_id": "D-02634",
+  "last_decision_at": "2026-10-01T17:18:23.587Z",
+  "decision_history": [
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-02634",
+      "goal": "G07",
+      "action_type": "in_app_message",
+      "deliver_at": "2026-10-01T17:18:23.587Z",
+      "status": "ok"
+    }
+  ]
+}

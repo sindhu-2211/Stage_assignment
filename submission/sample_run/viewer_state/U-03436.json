@@ -1,0 +1,78 @@
+{
+  "user_id": "U-03436",
+  "current_goal": "G02",
+  "last_decision_id": "D-01142",
+  "last_decision_at": "2026-10-01T08:29:39.069Z",
+  "decision_history": [
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": "G02",
+      "action_type": "whatsapp",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "ok"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01094",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01065",
+      "goal": null,
+      "action_type": "no_action",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "no_action"
+    },
+    {
+      "decision_id": "D-01142",
+      "goal": "G02",
+      "action_type": "in_app_message",
+      "deliver_at": "2026-10-01T08:29:39.069Z",
+      "status": "ok"
+    }
+  ]
+}

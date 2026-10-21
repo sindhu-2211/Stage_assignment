@@ -1,0 +1,72 @@
+{
+  "seed": "oua-practice",
+  "triggered_users": 1746,
+  "events_written": 31795,
+  "counts": {
+    "actions_total": 845,
+    "home_page_accepted": 10,
+    "home_page_row_dropped_below_minimum": 7,
+    "home_page_shown_personalised": 3,
+    "in_app_message_queued": 200,
+    "in_app_message_requested": 200,
+    "organic_purchases_scripted": 36,
+    "push_caused_opt_out": 1,
+    "push_clicked": 11,
+    "push_delivered": 550,
+    "push_requested": 635,
+    "push_undeliverable_token": 85
+  },
+  "policy_problems": [
+    {
+      "action_id": "A-00780",
+      "user_id": "U-00084",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00820",
+      "user_id": "U-00084",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00797",
+      "user_id": "U-00116",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00790",
+      "user_id": "U-00584",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00814",
+      "user_id": "U-02676",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00800",
+      "user_id": "U-02814",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00822",
+      "user_id": "U-03578",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00840",
+      "user_id": "U-03595",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00836",
+      "user_id": "U-03822",
+      "problem": "frequency_cap_exceeded"
+    },
+    {
+      "action_id": "A-00828",
+      "user_id": "U-04686",
+      "problem": "frequency_cap_exceeded"
+    }
+  ],
+  "policy_problem_count": 10
+}
